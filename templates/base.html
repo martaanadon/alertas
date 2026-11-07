@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ site.name }}{% endblock %}</title>
+<meta name="description" content="{% block description %}{{ site.tagline }}{% endblock %}">
+{% if not indexable %}<meta name="robots" content="noindex, follow">{% endif %}
+<link rel="canonical" href="{{ canonical }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ url('feed.xml') }}">
+<link rel="stylesheet" href="{{ url('static/style.css') }}">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-inner">
+    <a class="brand" href="{{ url('') }}"><span class="dot" aria-hidden="true"></span>{{ site.name }}</a>
+    <nav>
+      <a href="{{ url('buscar/') }}">Buscar</a>
+      <a href="{{ url('metodologia/') }}">Cómo funciona</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+{% block content %}{% endblock %}
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <p>Información oficial de AESAN reproducida con fines informativos, con enlace a cada fuente. Si una alerta te afecta, sigue siempre las instrucciones de la fuente oficial.</p>
+    <p><a href="{{ url('metodologia/') }}">Metodología</a> · <a href="{{ url('aviso-legal/') }}">Aviso legal</a> · <a href="{{ url('feed.xml') }}">RSS</a></p>
+  </div>
+</footer>
+</body>
+</html>

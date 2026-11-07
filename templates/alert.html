@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block title %}{{ a.title }} · {{ site.name }}{% endblock %}
+{% block description %}{% if a.brands %}{{ a.brands | join(', ') }}: {% endif %}{{ a.hazard_label }}. Lotes afectados, qué hacer y fuente oficial. Alerta del {{ a.date | human_date }}.{% endblock %}
+{% block content %}
+<article class="alert">
+  <p class="crumbs"><a href="{{ url('') }}">Inicio</a> › <a href="{{ url('riesgo/' ~ a.hazard ~ '/') }}">{{ a.hazard_label }}</a></p>
+  <span class="tag tag-{{ a.hazard }}">{{ a.hazard_label }}</span>
+  <h1>{{ a.title }}</h1>
+  <p class="meta">Publicada por AESAN el {{ a.date | human_date }}{% if a.ref %} · Ref. {{ a.ref }}{% endif %}{% if a.history %} · Actualizada {{ a.history | length }} {{ 'vez' if a.history | length == 1 else 'veces' }}{% endif %}</p>
+
+  {% if a.summary %}<p class="lead">{{ a.summary }}</p>{% endif %}
+
+  {% if a.products %}
+  <h2>Productos afectados</h2>
+  {% for p in a.products %}
+  <dl class="product">
+    {% if p.name %}<dt>Producto</dt><dd>{{ p.name }}</dd>{% endif %}
+    {% if p.brand %}<dt>Marca</dt><dd><a href="{{ url('marca/' ~ brand_slugs[p.brand.strip()] ~ '/') }}">{{ p.brand }}</a></dd>{% endif %}
+    {% if p.packaging %}<dt>Envase</dt><dd>{{ p.packaging }}</dd>{% endif %}
+    {% if p.lot %}<dt>Lote</dt><dd><strong>{{ p.lot }}</strong></dd>{% endif %}
+    {% if p.expiry %}<dt>Caducidad / consumo preferente</dt><dd>{{ p.expiry }}</dd>{% endif %}
+    {% if p.ean %}<dt>Código de barras</dt><dd><code>{{ p.ean | join(', ') }}</code></dd>{% endif %}
+    {% if p.weight %}<dt>Peso</dt><dd>{{ p.weight }}</dd>{% endif %}
+    {% if p.temperature %}<dt>Conservación</dt><dd>{{ p.temperature }}</dd>{% endif %}
+  </dl>
+  {% endfor %}
+  {% endif %}
+
+  {% if a.images %}
+  <div class="images">{% for img in a.images[:4] %}<img src="{{ img }}" alt="Imagen oficial del producto afectado" loading="lazy">{% endfor %}</div>
+  <p class="small">Imágenes: AESAN.</p>
+  {% endif %}
+
+  <h2>Dónde se ha distribuido</h2>
+  {% if a.nationwide %}<p>En todo el territorio nacional.</p>
+  {% elif a.regions %}<ul class="chips">{% for r in a.regions %}<li><a href="{{ url('comunidad/' ~ r ~ '/') }}">{{ region_labels[r] }}</a></li>{% endfor %}</ul>
+  <p class="small">No se descartan redistribuciones a otras comunidades.</p>
+  {% else %}<p>La fuente no detalla la distribución.</p>{% endif %}
+  {% if a.supermarkets %}<p>Supermercados mencionados: {% for s in a.supermarkets %}<a href="{{ url('supermercado/' ~ s ~ '/') }}">{{ supermarket_labels[s] }}</a>{% if not loop.last %}, {% endif %}{% endfor %}.</p>{% endif %}
+
+  <h2>Qué hacer si lo tienes en casa</h2>
+  {% if a.recommendations %}
+  <ul>{% for r in a.recommendations %}<li>{{ r }}</li>{% endfor %}</ul>
+  {% else %}
+  <ul><li>Comprueba el lote y la fecha en el envase. Si coinciden, no lo consumas.</li></ul>
+  {% endif %}
+  <p>Puedes devolverlo en el establecimiento donde lo compraste. Ante síntomas tras consumirlo, acude a tu centro de salud.</p>
+
+  {% if a.allergens %}
+  <p>Afecta a personas con alergia o intolerancia a:
+  {% for s in a.allergens %}<a href="{{ url('alergeno/' ~ s ~ '/') }}">{{ allergen_labels[s] }}</a>{% if not loop.last %}, {% endif %}{% endfor %}.
+  Para el resto de la población el consumo no supone riesgo, según la fuente.</p>
+  {% endif %}
+
+  <p class="source">Fuente oficial: <a href="{{ a.url }}" rel="nofollow">{{ a.url }}</a></p>
+
+  {% if related %}
+  <h2>Otras alertas de {{ a.hazard_label | lower }}</h2>
+  <ul class="cards compact">{% for a in related %}{% include "_card.html" %}{% endfor %}</ul>
+  {% endif %}
+</article>
+{% endblock %}

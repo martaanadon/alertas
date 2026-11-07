@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Cómo funciona · {{ site.name }}{% endblock %}
+{% block content %}
+<article class="prose">
+<h1>Cómo funciona este sitio</h1>
+<p>Reunimos las alertas oficiales sobre productos retirados en España y las presentamos de forma que se puedan buscar por marca, producto, lote o código de barras.</p>
+<h2>De dónde salen los datos</h2>
+<ul>
+  <li><strong>AESAN</strong> (Agencia Española de Seguridad Alimentaria y Nutrición): alertas alimentarias publicadas en su web.</li>
+  <li>Próximamente: Safety Gate (sistema europeo de alerta para productos no alimentarios), la red de alerta de Consumo y la AEMPS.</li>
+</ul>
+<h2>Cómo se procesan</h2>
+<ul>
+  <li>Cada día un proceso automático revisa la web de la fuente y descarga las alertas nuevas.</li>
+  <li>Los datos de producto (nombre, marca, lote, fechas, código de barras) se copian tal y como los publica la fuente. No añadimos valoraciones sobre productos ni marcas.</li>
+  <li>Las alertas recientes se vuelven a comprobar para recoger ampliaciones (nuevos lotes o productos). Cada página indica si ha sido actualizada.</li>
+  <li>La clasificación por tipo de riesgo, alérgeno, comunidad y supermercado se hace automáticamente a partir del texto oficial. Puede contener errores: la referencia es siempre la fuente enlazada en cada alerta.</li>
+</ul>
+<h2>Limitaciones</h2>
+<p>Que un producto no aparezca aquí no garantiza que sea seguro. Puede haber retraso entre la publicación oficial y su aparición en este sitio. En caso de duda, consulta la fuente oficial.</p>
+<h2>Uso de inteligencia artificial</h2>
+<p>El mantenimiento del sitio está automatizado y una persona supervisa los cambios de diseño, contenido editorial y método. Los datos de las alertas no se generan con IA: se extraen de las fuentes oficiales.</p>
+</article>
+{% endblock %}

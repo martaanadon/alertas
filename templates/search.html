@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Buscar productos retirados · {{ site.name }}{% endblock %}
+{% block content %}
+<h1>Buscar en las alertas</h1>
+<form class="search" onsubmit="return false" role="search">
+  <input id="q" type="search" placeholder="Marca, producto, lote o código de barras" aria-label="Buscar" autofocus>
+</form>
+<p id="status" class="small" aria-live="polite">Cargando alertas…</p>
+<ul id="results" class="cards"></ul>
+<script>
+(function () {
+  var data = [], q = document.getElementById('q'), out = document.getElementById('results'),
+      status = document.getElementById('status'), base = {{ url('') | tojson }};
+  function norm(s) { return (s || '').toString().normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
+  function render() {
+    var term = norm(q.value.trim());
+    out.innerHTML = '';
+    if (term.length < 2) { status.textContent = data.length + ' alertas. Escribe al menos 2 caracteres.'; return; }
+    var words = term.split(/\s+/), hits = data.filter(function (a) {
+      var hay = norm([a.t, a.h, a.b.join(' '), a.p.join(' '), a.l.join(' '), a.e.join(' ')].join(' '));
+      return words.every(function (w) { return hay.indexOf(w) !== -1; });
+    });
+    status.textContent = hits.length ? hits.length + ' resultado(s)' :
+      'Ninguna alerta coincide. Que no aparezca no garantiza que un producto sea seguro: consulta también la web de AESAN.';
+    hits.slice(0, 50).forEach(function (a) {
+      var li = document.createElement('li'), link = document.createElement('a');
+      li.className = 'card'; link.href = base + 'alerta/' + a.id + '/';
+      var tag = document.createElement('span'); tag.className = 'tag'; tag.textContent = a.h;
+      var t = document.createElement('span'); t.className = 'card-title'; t.textContent = a.t;
+      var m = document.createElement('span'); m.className = 'meta'; m.textContent = a.d + (a.b.length ? ' · ' + a.b.join(', ') : '');
+      link.append(tag, t, m); li.append(link); out.append(li);
+    });
+  }
+  fetch(base + 'search-index.json').then(function (r) { return r.json(); }).then(function (d) {
+    data = d;
+    var p = new URLSearchParams(location.search).get('q'); if (p) q.value = p;
+    render();
+  }).catch(function () { status.textContent = 'No se pudo cargar el buscador.'; });
+  q.addEventListener('input', render);
+})();
+</script>
+{% endblock %}

@@ -1,0 +1,73 @@
+name: Daily update
+
+on:
+  schedule:
+    - cron: "23 6 * * *"    # 07:23 Madrid (winter)
+    - cron: "23 17 * * *"   # 18:23 Madrid: AESAN often publishes in the afternoon
+  workflow_dispatch:
+    inputs:
+      years:
+        description: "Extra years to backfill, space-separated (e.g. 2025)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Tests (a failing parser never publishes)
+        run: python -m pytest -q
+
+      - name: Collect AESAN
+        run: |
+          YEARS="$(date +%Y) ${{ github.event.inputs.years }}"
+          ARGS=""; for y in $YEARS; do ARGS="$ARGS --year $y"; done
+          python -m alertas.aesan $ARGS | tee collect.log
+
+      - name: Safety Gate discovery (raw only, not published)
+        continue-on-error: true
+        run: python -m alertas.safetygate
+
+      - name: Commit data
+        run: |
+          git config user.name "alertas-bot"
+          git config user.email "alertas-bot@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then echo "No data changes"; else
+            git commit -m "data: $(head -1 collect.log)" && git push; fi
+
+      - name: Build site
+        run: python -m alertas.build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

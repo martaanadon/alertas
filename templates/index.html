@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}Productos retirados en España hoy · {{ site.name }}{% endblock %}
+{% block content %}
+<section class="hero">
+  <h1>¿Está retirado tu producto?</h1>
+  <p>Todas las alertas oficiales de alimentos en España, buscables por marca, nombre, lote o código de barras.</p>
+  <form class="search" action="{{ url('buscar/') }}" method="get" role="search">
+    <input type="search" name="q" placeholder="Marca, producto, lote o código de barras" aria-label="Buscar" required>
+    <button type="submit">Buscar</button>
+  </form>
+  <p class="small">{{ total }} alertas registradas · actualizado a diario</p>
+</section>
+
+<section>
+  <h2>Últimas alertas</h2>
+  <ul class="cards">
+  {% for a in alerts %}{% include "_card.html" %}{% endfor %}
+  </ul>
+</section>
+
+<section class="hubs">
+  {% if hubs.alergeno %}
+  <div>
+    <h2>Por alérgeno</h2>
+    <ul class="chips">{% for slug, label, n in hubs.alergeno %}<li><a href="{{ url('alergeno/' ~ slug ~ '/') }}">{{ label }} <span>{{ n }}</span></a></li>{% endfor %}</ul>
+  </div>
+  {% endif %}
+  <div>
+    <h2>Por tipo de riesgo</h2>
+    <ul class="chips">{% for slug, label, n in hubs.riesgo %}<li><a href="{{ url('riesgo/' ~ slug ~ '/') }}">{{ label }} <span>{{ n }}</span></a></li>{% endfor %}</ul>
+  </div>
+  <div>
+    <h2>Por comunidad autónoma</h2>
+    <ul class="chips">{% for slug, label, n in hubs.comunidad %}<li><a href="{{ url('comunidad/' ~ slug ~ '/') }}">{{ label }} <span>{{ n }}</span></a></li>{% endfor %}</ul>
+  </div>
+  {% if hubs.supermercado %}
+  <div>
+    <h2>Por supermercado</h2>
+    <ul class="chips">{% for slug, label, n in hubs.supermercado %}<li><a href="{{ url('supermercado/' ~ slug ~ '/') }}">{{ label }} <span>{{ n }}</span></a></li>{% endfor %}</ul>
+  </div>
+  {% endif %}
+</section>
+{% endblock %}

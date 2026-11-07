@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% set headings = {
+  'riesgo': 'Alertas por ' ~ (label | lower),
+  'alergeno': 'Alertas para personas con alergia: ' ~ (label | lower),
+  'comunidad': 'Productos retirados en ' ~ label,
+  'marca': 'Alertas de productos ' ~ label,
+  'supermercado': 'Productos retirados en ' ~ label,
+} %}
+{% block title %}{{ headings[kind] }} · {{ site.name }}{% endblock %}
+{% block description %}{{ alerts | length }} alertas oficiales. Lotes, fechas y qué hacer. Última: {{ alerts[0].date | human_date }}.{% endblock %}
+{% block content %}
+<p class="crumbs"><a href="{{ url('') }}">Inicio</a></p>
+<h1>{{ headings[kind] }}</h1>
+<p class="meta">{{ alerts | length }} alerta{{ 's' if alerts | length != 1 }} · la más reciente del {{ alerts[0].date | human_date }}</p>
+{% if kind == 'comunidad' %}<p class="small">Incluye alertas distribuidas en todo el territorio nacional.</p>{% endif %}
+{% if kind == 'supermercado' %}<p class="small">Alertas en las que la fuente oficial menciona este supermercado.</p>{% endif %}
+<ul class="cards">{% for a in alerts %}{% include "_card.html" %}{% endfor %}</ul>
+{% endblock %}
