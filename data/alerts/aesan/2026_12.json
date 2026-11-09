@@ -1,0 +1,56 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-12",
+  "url": "https://www.aesan.gob.es/alertas/2026_12",
+  "ref": "ES2026/087",
+  "title": "Alerta por riesgo de asfixia en gominolas procedentes de Japón a través de Países Bajos (Ref ES2026/087)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por Países Bajos, a través de la Red de Alerta Alimentaria Europea (RASFF), del riesgo de asfixia por consumo de gominolas “Gelatinas Hello Kitty Manzana y Konjak”.",
+  "hazard": "otros",
+  "hazard_label": "Otros riesgos",
+  "allergens": [],
+  "products": [
+    {
+      "brand": "Sanrio",
+      "packaging": "bolsa de plástico que contiene sobres individuales",
+      "expiry": "11-06-2026",
+      "weight": "150 g",
+      "temperature": "ambiente"
+    }
+  ],
+  "brands": [
+    "Sanrio"
+  ],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Andalucía, Aragón, Asturias, Islas Baleares, Canarias, Cantabria, Castilla y León, Cataluña, Galicia, Madrid y Comunidad Valenciana, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas. Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI) con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
+  "regions": [
+    "andalucia",
+    "aragon",
+    "asturias",
+    "baleares",
+    "canarias",
+    "cantabria",
+    "castilla-y-leon",
+    "cataluna",
+    "comunidad-valenciana",
+    "galicia",
+    "madrid"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [
+    "Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos.",
+    "Se recomienda a las personas que tengan en su domicilio productos afectados por esta alerta, se abstengan de consumirlos."
+  ],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:0d7c3ac7-9155-4832-a961-66c0d08b68c7/1gominolas22022026.jpg",
+    "https://www.aesan.gob.es/dam/jcr:bf80b9e9-0f02-4f04-be14-9af3b7670035/2gominolas22022026.jpg",
+    "https://www.aesan.gob.es/dam/jcr:98e39b3b-5656-4235-b573-b7e4e51bd7ef/3gominolas22022026.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:52:00+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:52:00+00:00"
+}

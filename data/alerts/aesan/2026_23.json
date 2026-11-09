@@ -1,0 +1,47 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-23",
+  "url": "https://www.aesan.gob.es/alertas/2026_23",
+  "ref": "ES2026/160",
+  "title": "Advertencia para personas con alergia a los frutos secos o con problemas derivados de la ingesta de gluten: Presencia de gluten y frutos secos en yogur griego natural ligero procedente de Austria (Ref. ES2026/160)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición ha tenido conocimiento a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de una notificación de alerta trasladada por las autoridades sanitarias de la Comunidad de Madrid, relativa a la presencia de gluten y frutos secos no incluidos en el etiquetado en yogur griego natural ligero de la marca Carrefour.",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [
+    "gluten"
+  ],
+  "products": [
+    {
+      "name": "Yogur griego natural ligero",
+      "brand": "Carrefour",
+      "packaging": "Envasados en paquetes de 6 unidades de 125 g cada una",
+      "ean": [
+        "8431876351750"
+      ],
+      "expiry": "26/04/2026",
+      "weight": "125 g",
+      "temperature": "Refrigerado"
+    }
+  ],
+  "brands": [
+    "Carrefour"
+  ],
+  "distribution": "Según la información disponible, el producto ha sido distribuido en todo el territorio nacional.",
+  "regions": [],
+  "nationwide": true,
+  "supermarkets": [
+    "carrefour"
+  ],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:0074ea54-c739-4205-9141-51e5cc7a2a33/Gluten_frutos_seco__yogur.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:52:16+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:52:16+00:00"
+}

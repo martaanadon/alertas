@@ -1,0 +1,72 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-13",
+  "url": "https://www.aesan.gob.es/alertas/2026_13",
+  "ref": "ES2026/089",
+  "title": "Alerta por posible presencia de cuerpos extraños (astillas de madera) en queso rallado procedente de España (Ref. ES2026/089)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por la Comunidad Foral de Navarra a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI) de la posible presencia de cuerpos extraños (astillas de madera) en queso rallado de las marcas Alteza, Albéniz y Froiz, del lote 2426026 y con fecha de caducidad 05.06.2026.",
+  "hazard": "cuerpos-extranos",
+  "hazard_label": "Cuerpos extraños",
+  "allergens": [],
+  "products": [
+    {
+      "name": "Queso rallado gouda",
+      "brand": "Alteza",
+      "lot": "2426026",
+      "expiry": "05.06.2026",
+      "weight": "200 g",
+      "temperature": "refrigerado"
+    },
+    {
+      "name": "Queso rallado gouda",
+      "brand": "Albéniz",
+      "lot": "2426026",
+      "expiry": "05.06.2026",
+      "weight": "1 Kg",
+      "temperature": "refrigerado"
+    },
+    {
+      "name": "Queso rallado mozzarella y provolone",
+      "brand": "Froiz",
+      "lot": "2426026",
+      "expiry": "05.06.2026",
+      "weight": "200 g",
+      "temperature": "refrigerado"
+    }
+  ],
+  "brands": [
+    "Albéniz",
+    "Alteza",
+    "Froiz"
+  ],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Andalucía, Cantabria, Castilla-La Mancha, Castilla y León, Galicia y Navarra, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas. Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI) con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
+  "regions": [
+    "andalucia",
+    "cantabria",
+    "castilla-la-mancha",
+    "castilla-y-leon",
+    "galicia",
+    "navarra"
+  ],
+  "nationwide": false,
+  "supermarkets": [
+    "froiz"
+  ],
+  "recommendations": [
+    "Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos.",
+    "Se recomienda a las personas que tengan en su domicilio productos afectados por esta alerta que se abstengan de consumirlos."
+  ],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:3d7ab6d2-cfff-4cab-9265-c8e414e9565d/alerta_queso.jpg",
+    "https://www.aesan.gob.es/dam/jcr:2ffa5a4c-793f-4b45-b657-04b5572888eb/alerta_queso_1.jpg",
+    "https://www.aesan.gob.es/dam/jcr:31556a59-3f8c-4897-a298-d4fb91398b97/alerta_queso_2.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:52:02+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:52:02+00:00"
+}

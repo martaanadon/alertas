@@ -1,0 +1,43 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-79",
+  "url": "https://www.aesan.gob.es/alertas/2026_79",
+  "ref": "ES2026/659",
+  "title": "Alerta por presencia de Salmonella en kéfir de cabra procedente de España. (Ref. ES2026/659).",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por la Comunidad Autónoma de Aragón, a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de la presencia de Salmonella en kéfir de cabra de la marca La Pardina con fechas de caducidad 14/11/26 y 25/11/2026 Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos.",
+  "hazard": "salmonella",
+  "hazard_label": "Salmonella",
+  "allergens": [],
+  "products": [
+    {
+      "name": "Kéfir de cabra con probióticos",
+      "brand": "La Pardina",
+      "packaging": "botella blanca",
+      "expiry": "14/11/2026; 25/11/2026",
+      "temperature": "Refrigeración"
+    }
+  ],
+  "brands": [
+    "La Pardina"
+  ],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a la comunidad autónoma de Aragón, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
+  "regions": [
+    "aragon"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [
+    "Se recomienda a las personas que tengan en su domicilio productos afectados por esta alerta, se abstengan de consumirlos."
+  ],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:4ddb2272-aa17-400d-bfdd-a52d721e1507/Alerta_2026_11_04_1.2026-11-04-11-32-53.png",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:51:26+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:51:26+00:00"
+}

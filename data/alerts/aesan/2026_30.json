@@ -1,0 +1,50 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-30",
+  "url": "https://www.aesan.gob.es/alertas/2026_30",
+  "ref": "ES2026/206",
+  "title": "Advertencia para personas con alergia a los componentes de la leche, la soja, el sésamo o las nueces: Presencia de trazas de leche, soja, sésamo y nueces en cereales inflados procedentes de Alemania (Ref ES2026/206)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON ALERGIA A LOS COMPONENTES DE LA LECHE, A LA SOJA, AL SÉSAMO O A LAS NUECES, de la comercialización del producto cereales inflados de la marca Freche Freunde con presencia de trazas de leche, soja, sésamo y nueces no incluidos en el etiquetado.",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [
+    "leche",
+    "frutos-de-cascara",
+    "soja",
+    "sesamo"
+  ],
+  "products": [
+    {
+      "name": "cereales inflados ecológicos con manzana y concentrado de zumo de fresa",
+      "brand": "Freche Freunde",
+      "packaging": "paquetes de 125 g",
+      "lot": "L25226. No se descarta que este mismo problema en el etiquetado se presente en otros lotes",
+      "expiry": "14/08/2026",
+      "weight": "125 g",
+      "temperature": "ambiente"
+    }
+  ],
+  "brands": [
+    "Freche Freunde"
+  ],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Islas Baleares y Comunidad Valenciana, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
+  "regions": [
+    "baleares",
+    "comunidad-valenciana"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:9368bc19-4553-4654-9cce-1138d8d27d84/cereales_mayo_2026.jpg",
+    "https://www.aesan.gob.es/dam/jcr:12d7f439-41ae-4d5a-8779-6d51189c274a/cereales_mayo_2026_1.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:52:27+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:52:27+00:00"
+}

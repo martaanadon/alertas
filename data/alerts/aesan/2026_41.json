@@ -1,0 +1,52 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-41",
+  "url": "https://www.aesan.gob.es/alertas/2026_41",
+  "ref": "ES2026/312",
+  "title": "Advertencia para personas con alergia a la soja o a los cacahuetes: Presencia de soja y cacahuetes en barritas proteicas procedentes de Países Bajos (Ref. ES2026/312)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON ALERGIA A LA SOJA O A LOS CACAHUETES de la comercialización del producto barritas proteicas Coco Choco de la marca Barebells con presencia de soja y cacahuetes no incluidos en el etiquetado.",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [
+    "soja"
+  ],
+  "products": [
+    {
+      "name": "Coco Choco Soft Protein Bar",
+      "packaging": "envasado",
+      "lot": "L6055-R",
+      "expiry": "24/02/2027",
+      "weight": "55.0 g",
+      "temperature": "ambiente"
+    }
+  ],
+  "brands": [],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Andalucía, Aragón, Asturias, Islas Baleares, Cataluña, Canarias, Castilla-La Mancha, Galicia, Madrid, Murcia, País Vasco y Valencia, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
+  "regions": [
+    "andalucia",
+    "aragon",
+    "asturias",
+    "baleares",
+    "canarias",
+    "castilla-la-mancha",
+    "cataluna",
+    "galicia",
+    "madrid",
+    "murcia",
+    "pais-vasco"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:4f7ff373-c042-49f6-8443-b046e98067ff/alerta_29_05_2026_1.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:52:43+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:52:43+00:00"
+}

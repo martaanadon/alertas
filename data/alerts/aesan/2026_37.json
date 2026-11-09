@@ -1,0 +1,52 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-37",
+  "url": "https://www.aesan.gob.es/alertas/2026_37",
+  "ref": "ES2026/266",
+  "title": "Advertencia para personas con alergia al pescado: presencia de pescado no declarado en un complemento alimenticio procedente de España (Ref. ES2026/266)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON ALERGIA AL PESCADO de la comercialización del complemento alimenticio NDL Pro-Health Articulations, con presencia de pescado no incluido en el etiquetado.",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [
+    "pescado"
+  ],
+  "products": [
+    {
+      "name": "NDL Pro-Health Articulations",
+      "brand": "NDL Pro-Health",
+      "packaging": "envase con 30 cápsulas",
+      "lot": "todos los que no incluyan el pescado en su etiquetado",
+      "temperature": "ambiente"
+    }
+  ],
+  "brands": [
+    "NDL Pro-Health"
+  ],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Andalucía, Islas Baleares, Cataluña, Cantabria, Castilla - La Mancha, Castilla y León, Comunidad Valenciana, Extremadura, Galicia, Madrid y Murcia, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
+  "regions": [
+    "andalucia",
+    "baleares",
+    "cantabria",
+    "castilla-y-leon",
+    "cataluna",
+    "comunidad-valenciana",
+    "extremadura",
+    "galicia",
+    "madrid",
+    "murcia"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:d4d7858e-b25c-4c0b-b230-82ad25e2853a/ndl_pro_health_2026.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:52:37+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:52:37+00:00"
+}

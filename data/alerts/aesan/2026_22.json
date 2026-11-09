@@ -1,0 +1,47 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-22",
+  "url": "https://www.aesan.gob.es/alertas/2026_22",
+  "ref": "ES2026/118",
+  "title": "Alerta por presencia de Salmonella en longaniza de payés loncheada procedente de España. (Ref.ES2026/118)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por las autoridades sanitarias de Andalucía a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de la presencia de Salmonella en el producto longaniza de payés loncheada de la marca Boadas 1880 de los lotes: 329, 330, 331, 345, 346 y 347.",
+  "hazard": "salmonella",
+  "hazard_label": "Salmonella",
+  "allergens": [],
+  "products": [
+    {
+      "name": "Longaniza de payés selección",
+      "brand": "Boadas 1880",
+      "packaging": "loncheado en envase de plástico",
+      "weight": "80 g",
+      "temperature": "refrigerado"
+    }
+  ],
+  "brands": [
+    "Boadas 1880"
+  ],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Andalucía, Cataluña, Comunidad Valenciana y Región de Murcia, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas. Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
+  "regions": [
+    "andalucia",
+    "cataluna",
+    "comunidad-valenciana",
+    "murcia"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [
+    "Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos.",
+    "Se recomienda a las personas que tengan en su domicilio productos afectados por esta alerta, se abstengan de consumirlos."
+  ],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:2c28cccf-0620-47e7-9ba9-5d867fc801c9/longaniza_payes.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:52:15+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:52:15+00:00"
+}

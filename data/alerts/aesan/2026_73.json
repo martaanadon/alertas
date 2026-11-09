@@ -1,0 +1,46 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-73",
+  "url": "https://www.aesan.gob.es/alertas/2026_73",
+  "ref": "ES2026/621",
+  "title": "Alerta por presencia de cuerpos extraños (fragmentos de vidrio) en Salsa Ricotta procedente de Italia. (Ref. ES2026/621)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por la Comunidad Foral de Navarra, a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de la presencia de cuerpos extraños (fragmentos de vidrio) en el producto Salsa Ricota de la marca EROSKI, del lote LA310CRI01 de fecha de caducidad 06/11/2028.",
+  "hazard": "cuerpos-extranos",
+  "hazard_label": "Cuerpos extraños",
+  "allergens": [],
+  "products": [
+    {
+      "name": "Salsa Ricotta",
+      "brand": "EROSKI",
+      "packaging": "Bote de vidrio",
+      "lot": "LA310CRI01",
+      "expiry": "06/11/2028",
+      "weight": "350 g",
+      "temperature": "Ambiente"
+    }
+  ],
+  "brands": [
+    "EROSKI"
+  ],
+  "distribution": "Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
+  "regions": [],
+  "nationwide": false,
+  "supermarkets": [
+    "eroski"
+  ],
+  "recommendations": [
+    "Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos.",
+    "Se recomienda a las personas que tengan en su domicilio productos afectados por esta alerta, se abstengan de consumirlos."
+  ],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:7a8ef38a-6ba5-40f2-9b8d-dd958293d775/Alerta_2026_10_23_1.2026-10-23-13-35-37.png",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:51:17+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:51:17+00:00"
+}

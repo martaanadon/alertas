@@ -1,0 +1,50 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-05",
+  "url": "https://www.aesan.gob.es/alertas/2026_05",
+  "ref": "ES2026/053",
+  "title": "Alerta por posible presencia de cereulida en fórmulas infantiles procedentes de Francia (Ref. ES2026/053)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por las autoridades sanitarias de Francia a través de la Red de Alerta Alimentaria Europea (RASFF) de la posible presencia de cereulida en los productos Babybio Caprea 1 con fechas de caducidad 28/07/2027 y 17/09/2027 y Babybio Optima 1 con fecha de caducidad 01/10/2027.",
+  "hazard": "otros",
+  "hazard_label": "Otros riesgos",
+  "allergens": [],
+  "products": [
+    {
+      "name": "Babybio Caprea 1",
+      "brand": "Babybio",
+      "packaging": "bote",
+      "weight": "800 g",
+      "temperature": "ambiente"
+    },
+    {
+      "name": "Babybio Optima 1",
+      "brand": "Babybio",
+      "packaging": "bote",
+      "weight": "800 g",
+      "temperature": "ambiente"
+    }
+  ],
+  "brands": [
+    "Babybio"
+  ],
+  "distribution": "Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
+  "regions": [],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [
+    "Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos.",
+    "Se recomienda a las personas que tengan en su domicilio productos afectados por esta alerta se abstengan de consumirlos."
+  ],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:03d6d46b-7473-4e7e-8f5a-6a769e36852e/cereulida_lactantes_francia.jpg",
+    "https://www.aesan.gob.es/dam/jcr:d720330e-4104-451a-bff6-51cd0a90362c/cereulida_lactantes_francia_1.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:51:43+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:51:43+00:00"
+}

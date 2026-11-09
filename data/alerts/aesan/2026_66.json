@@ -1,0 +1,31 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-66",
+  "url": "https://www.aesan.gob.es/alertas/2026_66",
+  "ref": "ES2026/535",
+  "title": "Alerta por presencia de sibutramina en complementos alimenticios (Ref. ES2026/535)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) informa de la retirada de los productos Slim U, Slim U Pro, P57 Hoodia, Bikini Siluet Perfect, Slim 24, 14 Día, Fatzorb, AB Slim, Get Lean, Slimina, Burn and Slim, Body Slim, Black Panther, Aphrodite Thermoslim Coffe, Aphrodite Plus, Aphrodite LipoDetox, Aphrodite Green Plus, Aphrodite Forte Plus, Aphrodite Forte, Li Da Ultra, Pineapple Slimming Peptide y Pezo Mega comercializados como complementos alimenticios por presencia de sibutramina no declarada en el etiquetado, y que puede producir reacciones adversas de diversa gravedad.",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [],
+  "products": [],
+  "brands": [],
+  "distribution": "Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
+  "regions": [],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [
+    "Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos .",
+    "Se recomienda a las personas que tengan en su domicilio productos afectados por esta alerta, se abstengan de consumirlos ."
+  ],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:51:08+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:51:08+00:00"
+}

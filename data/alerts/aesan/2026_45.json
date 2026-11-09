@@ -1,0 +1,40 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-45",
+  "url": "https://www.aesan.gob.es/alertas/2026_45",
+  "ref": "ES2026/327",
+  "title": "Advertencia para personas con alergia a las almendras: presencia de almendras no declaradas en postre procedente de España (Ref. ES2026/327)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON ALERGIA A LAS ALMENDRAS de la comercialización del producto Delicias de galleta María con presencia de almendras no incluidas en el etiquetado, con fecha de caducidad 30/06/2026.",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [],
+  "products": [
+    {
+      "name": "Delicias de galleta María",
+      "brand": "La Lechera",
+      "packaging": "Embalaje de 2 unidades x 125 g",
+      "lot": "30/06",
+      "weight": "125 g",
+      "temperature": "Refrigerado"
+    }
+  ],
+  "brands": [
+    "La Lechera"
+  ],
+  "distribution": "Según la información disponible, la distribución ha sido en casi todo el territorio nacional.",
+  "regions": [],
+  "nationwide": true,
+  "supermarkets": [],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:3378041c-9f8a-401a-95ca-652cd6ebfd8e/alerta_02_06_2026_17.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:52:49+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:52:49+00:00"
+}

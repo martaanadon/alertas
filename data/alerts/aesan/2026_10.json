@@ -1,0 +1,44 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-10",
+  "url": "https://www.aesan.gob.es/alertas/2026_10",
+  "ref": "ES2026/085",
+  "title": "Advertencia para personas con algún tipo de alergia o intolerancia: se desconocen los componentes de uno de los ingredientes (caldo de pollo) en salsa brava procedente de España (Ref. ES2026/085)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición ha tenido conocimiento a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de una notificación de alerta trasladada por las autoridades sanitarias de islas Baleares, relativa a la posible presencia de alérgenos en uno de los ingredientes (caldo de pollo), no incluidos en el etiquetado, en salsa brava de la marca Martínez.",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [],
+  "products": [
+    {
+      "name": "SALSA BRAVA",
+      "brand": "MARTÍNEZ",
+      "packaging": "botella de vidrio",
+      "lot": "todos",
+      "temperature": "ambiente"
+    }
+  ],
+  "brands": [
+    "MARTÍNEZ"
+  ],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Cataluña, Castilla - La Mancha, Castilla y León, Comunidad Valenciana y Murcia , si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
+  "regions": [
+    "castilla-y-leon",
+    "cataluna",
+    "comunidad-valenciana",
+    "murcia"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:2dcf3be8-298f-408e-899d-8142b2f0ac45/brava_20022026.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:51:57+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:51:57+00:00"
+}

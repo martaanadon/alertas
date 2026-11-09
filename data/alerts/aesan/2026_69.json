@@ -1,0 +1,56 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-69",
+  "url": "https://www.aesan.gob.es/alertas/2026_69",
+  "ref": "ES2026/597",
+  "title": "Advertencia por presencia de gluten: presencia de gluten en tostadas de trigo sarraceno procedentes de España (Ref ES2026/597)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE de la presencia de GLUTEN en tostadas de trigo sarraceno de marca Santiveri, con fecha de consumo preferente 01/12/2027 con la mención “sin gluten” en su etiquetado.",
+  "hazard": "otros",
+  "hazard_label": "Otros riesgos",
+  "allergens": [],
+  "products": [
+    {
+      "name": "Tostadas crujientes sarraceno",
+      "brand": "SANTIVERI BIO",
+      "packaging": "estuche de 100 g",
+      "expiry": "01/12/2027",
+      "weight": "100 g",
+      "temperature": "ambiente"
+    }
+  ],
+  "brands": [
+    "SANTIVERI BIO"
+  ],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Andalucía, Aragón, Cantabria, Castilla-La Mancha, Castilla y León, Cataluña, Comunidad Valenciana Galicia, Islas Baleares, La Rioja, Madrid, Murcia, Navarra y País Vasco , si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
+  "regions": [
+    "andalucia",
+    "aragon",
+    "baleares",
+    "cantabria",
+    "castilla-la-mancha",
+    "castilla-y-leon",
+    "cataluna",
+    "comunidad-valenciana",
+    "galicia",
+    "madrid",
+    "murcia",
+    "navarra",
+    "pais-vasco",
+    "la-rioja"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:0d92e310-41d1-4bb1-b612-b61cae97267c/Imagen1.2026-10-05-13-30-02.png",
+    "https://www.aesan.gob.es/dam/jcr:be5d5e59-8b5f-4304-a5e0-a1984b5e88a4/Imagen2.2026-10-05-13-29-49.png",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:51:13+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:51:13+00:00"
+}

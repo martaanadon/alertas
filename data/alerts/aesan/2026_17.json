@@ -1,0 +1,40 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-17",
+  "url": "https://www.aesan.gob.es/alertas/2026_17",
+  "ref": "ES2026/126",
+  "title": "Advertencia para personas con alergia a las nueces de macadamia y los anacardos: posible presencia de nueces de macadamia y anacardos no declarados en postre procedente de Bélgica (Ref. ES2026/126)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON ALERGIA A LAS NUECES DE MACADAMIA Y LOS ANACARDOS de la comercialización de un postre con posible presencia de nueces de macadamia y anacardos no incluidos en el etiquetado.",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [
+    "frutos-de-cascara"
+  ],
+  "products": [
+    {
+      "name": "Desserts Dubai style chocolate",
+      "brand": "Delici",
+      "weight": "76 g",
+      "temperature": "Refrigerado"
+    }
+  ],
+  "brands": [
+    "Delici"
+  ],
+  "distribution": "",
+  "regions": [],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:a8ba11fb-d4a7-497d-a915-1c042941ae1c/Dubai.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:52:08+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:52:08+00:00"
+}

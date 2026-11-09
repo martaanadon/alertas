@@ -1,0 +1,48 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-32",
+  "url": "https://www.aesan.gob.es/alertas/2026_32",
+  "ref": "ES2026/212",
+  "title": "Advertencia para personas con alergia al sésamo: Presencia de sésamo no declarado en aperitivo de tofu seco procedente de China (Ref. ES2026/212)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON ALERGIA AL SÉSAMO de la comercialización del producto aperitivo de tofu seco con presencia de sésamo no incluido en el etiquetado.",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [
+    "sesamo"
+  ],
+  "products": [
+    {
+      "name": "Aperitivo de tofu seco",
+      "brand": "Zhejiang Laoba Foodstuff",
+      "packaging": "Envase de plástico",
+      "lot": "251217 con fecha de consumo preferente 17/08/2026 y 250928 con fecha de consumo preferente 28/05/2026",
+      "weight": "100 g",
+      "temperature": "Ambiente"
+    }
+  ],
+  "brands": [
+    "Zhejiang Laoba Foodstuff"
+  ],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Andalucía, Cataluña, Comunidad Valenciana, Madrid y Navarra, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
+  "regions": [
+    "andalucia",
+    "cataluna",
+    "comunidad-valenciana",
+    "madrid",
+    "navarra"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:eb6b9c96-ca1b-4947-8403-d04287aa0755/sesamo_abril_2026.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:52:30+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:52:30+00:00"
+}

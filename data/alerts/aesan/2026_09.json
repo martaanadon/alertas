@@ -1,0 +1,43 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-09",
+  "url": "https://www.aesan.gob.es/alertas/2026_09",
+  "ref": "ES2026/027",
+  "title": "Advertencia por presencia de gluten: presencia de gluten en mochis procedentes de Taiwan. (Ref. ES2026/027)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE de la presencia de GLUTEN no incluido en el etiquetado en mochi Qlove Japanese Style.",
+  "hazard": "otros",
+  "hazard_label": "Otros riesgos",
+  "allergens": [],
+  "products": [
+    {
+      "name": "Dubai mochi pistachio kunafa flavor",
+      "brand": "Qlove Japanese Style",
+      "packaging": "envasado en caja de cartón",
+      "lot": "todos los que incluyan la leyenda “GLUTEN FREE”",
+      "weight": "168 g",
+      "temperature": "ambiente"
+    }
+  ],
+  "brands": [
+    "Qlove Japanese Style"
+  ],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Andalucía y Madrid , si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
+  "regions": [
+    "andalucia",
+    "madrid"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:7e1a237c-7042-4b99-8659-673ef0bd336f/mochi-alerta.png",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:51:56+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:51:56+00:00"
+}

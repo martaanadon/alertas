@@ -1,0 +1,54 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-07",
+  "url": "https://www.aesan.gob.es/alertas/2026_07",
+  "ref": "ES2026/072",
+  "title": "Advertencia para personas con alergia y/o intolerancia a los componentes de la leche, a las almendras, la soja y/o el huevo: Ausencia de etiquetado en castellano en barra de chocolate negro procedente de Suiza (Ref.ES2026/072)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON ALERGIA / INTOLERANCIA A LOS COMPONENTES DE LA LECHE, LAS ALMENDRAS, LA SOJA Y/O EL HUEVO de la comercialización de barra de chocolate negro de la marca Toblerone sin etiquetado en castellano.",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [
+    "leche",
+    "huevo",
+    "soja"
+  ],
+  "products": [
+    {
+      "name": "Chocolate negro con “nougat” 10% de miel y almendras",
+      "brand": "Toblerone",
+      "weight": "360 g",
+      "temperature": "ambiente"
+    }
+  ],
+  "brands": [
+    "Toblerone"
+  ],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Andalucía, Aragón, Castilla-La Mancha, Cataluña, Comunidad Valenciana, Islas Baleares, Canarias, Navarra, País Vasco y Madrid, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
+  "regions": [
+    "andalucia",
+    "aragon",
+    "baleares",
+    "canarias",
+    "castilla-la-mancha",
+    "cataluna",
+    "comunidad-valenciana",
+    "madrid",
+    "navarra",
+    "pais-vasco"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:49112cbe-0597-4ef3-bec0-243d9471a4bc/toblerone1.jpg",
+    "https://www.aesan.gob.es/dam/jcr:c1e2a56e-bdbf-4a4f-a2fe-3fa348381dd1/toblerone2.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:51:50+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:51:50+00:00"
+}

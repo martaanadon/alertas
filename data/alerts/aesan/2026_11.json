@@ -1,0 +1,73 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-11",
+  "url": "https://www.aesan.gob.es/alertas/2026_11",
+  "ref": "ES2026/085",
+  "title": "Advertencia para personas con intolerancia a los sulfitos: Presencia de sulfitos no declarados en el etiquetado de salsas picantes procedentes de España (Ref.ES2026/085)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON INTOLERANCIA A LOS SULFITOS de la comercialización de las salsas picantes: Cayena, Scorpion amarillo, Scorpion rojo, Chipotle, Ghost y Habanero de la marca Martínez con presencia de sulfitos no incluidos en el etiquetado.",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [],
+  "products": [
+    {
+      "name": "Salsa Picante Cayena",
+      "brand": "Martínez",
+      "packaging": "envasado en botella de 100 ml",
+      "temperature": "ambiente"
+    },
+    {
+      "name": "Salsa Picante Scorpión amarillo",
+      "brand": "Martínez",
+      "packaging": "envasado en botella de 100 ml",
+      "temperature": "ambiente"
+    },
+    {
+      "name": "Salsa Picante Scorpión rojo",
+      "brand": "Martínez",
+      "packaging": "envasado en botella de 100 ml",
+      "temperature": "ambiente"
+    },
+    {
+      "name": "Salsa Picante Chiplotle",
+      "brand": "Martínez",
+      "packaging": "envasado en botella de 100 ml",
+      "temperature": "ambiente"
+    },
+    {
+      "name": "o Salsa Picante Ghost",
+      "brand": "Martínez",
+      "packaging": "envsado en botella de 100 ml",
+      "temperature": "ambiente"
+    },
+    {
+      "name": "Salsa Picante Habanero",
+      "brand": "Martínez",
+      "packaging": "envasado en botella de 100 ml",
+      "temperature": "ambiente"
+    }
+  ],
+  "brands": [
+    "Martínez"
+  ],
+  "distribution": "",
+  "regions": [],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:777bda40-8fe9-4bf4-b6e7-16c503c8065f/salsaPicante1.jpg",
+    "https://www.aesan.gob.es/dam/jcr:0945c7c8-fd20-4707-9703-b00ebddb1de7/salsaPicante2.jpg",
+    "https://www.aesan.gob.es/dam/jcr:0874441f-41ea-4a42-840c-d4373b6ff939/salsaPicante3.jpg",
+    "https://www.aesan.gob.es/dam/jcr:10032eda-dead-4611-bd3a-0790981ac6dd/salsaPicante4.jpg",
+    "https://www.aesan.gob.es/dam/jcr:5970cf20-3aeb-4330-94f5-077fe8ea393b/salsaPicante5.jpg",
+    "https://www.aesan.gob.es/dam/jcr:f7776198-f233-4acc-a60c-ce4fe3ad5f84/salsaPicante6.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:51:59+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:51:59+00:00"
+}

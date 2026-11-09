@@ -1,0 +1,46 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-74",
+  "url": "https://www.aesan.gob.es/alertas/2026_74",
+  "ref": "ES2026/642",
+  "title": "Alerta por presencia de Salmonella spp. en clara de huevo pasteurizada. (Ref. ES2026/642)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por las autoridades sanitarias de la Junta de Andalucía a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI) de la presencia de Salmonella spp. en clara de huevo pasteurizada de la marca Casa de Castrelo con fecha de caducidad 27/10/2026",
+  "hazard": "salmonella",
+  "hazard_label": "Salmonella",
+  "allergens": [],
+  "products": [
+    {
+      "name": "Clara de huevo pasteurizada",
+      "brand": "Casa de Castrelo",
+      "packaging": "Botella de plástico",
+      "lot": "6265",
+      "expiry": "27/10/26",
+      "temperature": "Refrigerado"
+    }
+  ],
+  "brands": [
+    "Casa de Castrelo"
+  ],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a la comunidad autónoma de Andalucía, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas. Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
+  "regions": [
+    "andalucia"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [
+    "Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos.",
+    "Se recomienda a las personas que tengan en su domicilio productos afectados por esta alerta, se abstengan de consumirlos."
+  ],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:f788f7a2-3c54-44bd-97a5-b6916e2dd6a6/casa%20de%20castro1.2026-10-23-21-43-54.jpg",
+    "https://www.aesan.gob.es/dam/jcr:39d39de2-efcd-4b29-a903-b84caaa48d12/casa%20de%20castro2.2026-10-23-21-44-15.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:51:18+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:51:18+00:00"
+}

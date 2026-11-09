@@ -1,0 +1,51 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-80",
+  "url": "https://www.aesan.gob.es/alertas/2026_80",
+  "ref": "ES2026/665",
+  "title": "Alerta por presencia de Listeria monocytogenes en jamón cocido procedente de España (Ref. ES2026/665)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por las autoridades competentes del País Vasco a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de la presencia de Listeria monocytogenes en jamón cocido de la marca Urkabe, con fecha de caducidad 26/11/2026.",
+  "hazard": "listeria",
+  "hazard_label": "Listeria",
+  "allergens": [],
+  "products": [
+    {
+      "name": "Jamón cocido",
+      "brand": "URKABE",
+      "packaging": "Envase de plástico",
+      "lot": "61027",
+      "expiry": "26/11/2026",
+      "weight": "175 g",
+      "temperature": "Refrigerado"
+    }
+  ],
+  "brands": [
+    "URKABE"
+  ],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Castilla y León, Madrid, Navarra y País Vasco, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas. Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
+  "regions": [
+    "castilla-y-leon",
+    "madrid",
+    "navarra",
+    "pais-vasco"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [
+    "Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos.",
+    "Se recomienda a las personas que tengan en su domicilio productos afectados por esta alerta, se abstengan de consumirlos."
+  ],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:46151134-f6fd-4d69-952c-51ea495a7b06/Alerta_2026_11_04_2.2026-11-04-18-35-16.png",
+    "https://www.aesan.gob.es/dam/jcr:660ba756-dca3-41ea-8173-e61cb703fd3e/Alerta_2026_11_04_3.2026-11-04-18-35-43.png",
+    "https://www.aesan.gob.es/dam/jcr:ecc6dc4a-9a64-4041-bae8-489227f861e0/Alerta_2026_11_04_4.2026-11-04-18-36-15.png",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:51:27+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:51:27+00:00"
+}

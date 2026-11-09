@@ -1,0 +1,92 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-65-rev",
+  "url": "https://www.aesan.gob.es/alertas/2026_65_rev",
+  "ref": "ES2026/517",
+  "title": "Ampliación de información sobre la alerta por presencia de gluten no declarado en salsas etiquetadas \"sin gluten\" procedentes de España (Ref. ES2026/517)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) amplía la información relativa a la alerta por presencia de gluten no declarado en salsas etiquetadas “sin gluten” procedentes de España (Ref. ES2026/517).",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [
+    "gluten"
+  ],
+  "products": [
+    {
+      "name": "Salsa chimichurri",
+      "brand": "Vulpi",
+      "packaging": "Envasado en botella de plástico",
+      "ean": [
+        "8437023947920"
+      ],
+      "weight": "1080 g",
+      "temperature": "ambiente"
+    },
+    {
+      "name": "Salsa barbacoa (BBQ)",
+      "packaging": "Envasado en botella de plástico",
+      "ean": [
+        "8437023947357"
+      ],
+      "weight": "1020 g",
+      "temperature": "ambiente"
+    },
+    {
+      "name": "Salsa barbacoa (BBQ)",
+      "brand": "Vulpi",
+      "packaging": "Envasado en botella de plástico",
+      "ean": [
+        "8437023947814"
+      ],
+      "weight": "600 g",
+      "temperature": "ambiente"
+    },
+    {
+      "name": "Salsa chimichurri",
+      "brand": "Vulpi",
+      "packaging": "Envasado en botella de plástico",
+      "ean": [
+        "8437023947906"
+      ],
+      "weight": "210 g",
+      "temperature": "ambiente"
+    },
+    {
+      "name": "Salsa barbacoa (BBQ)",
+      "packaging": "Envasado en botella de plástico",
+      "ean": [
+        "8437023947029"
+      ],
+      "weight": "225 g",
+      "temperature": "ambiente"
+    }
+  ],
+  "brands": [
+    "Vulpi"
+  ],
+  "distribution": "Según la información disponible, la distribución ha sido a las comunidades autónomas de Andalucía, Aragón, Castilla - La Mancha, Castilla y León, Cataluña, Comunidad Valenciana, Galicia y Madrid , si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas. Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
+  "regions": [
+    "andalucia",
+    "aragon",
+    "castilla-y-leon",
+    "cataluna",
+    "comunidad-valenciana",
+    "galicia",
+    "madrid"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:0fff7b0a-ba92-4792-9f75-d44cdde180e8/alerta_11_08_2026_3.2026-09-11-15-24-57.png",
+    "https://www.aesan.gob.es/dam/jcr:41b3860e-dbbf-409e-8ed4-f17d656adf12/alerta_11_08_2026_2.2026-09-11-15-25-43.png",
+    "https://www.aesan.gob.es/dam/jcr:b7f1eae0-9946-447d-80a5-84b5ea291b4e/alerta_11_08_2026_1.2026-09-11-15-26-59.png",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:51:07+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:51:07+00:00"
+}

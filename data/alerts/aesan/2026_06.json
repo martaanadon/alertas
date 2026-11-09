@@ -1,0 +1,48 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-06",
+  "url": "https://www.aesan.gob.es/alertas/2026_06",
+  "ref": "ES2026/067",
+  "title": "Alerta por posible presencia de fragmentos de plástico en burger meat procedente de España (Ref. ES2026/067)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por la Comunidad Autónoma de Aragón a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI) de la posible presencia de fragmentos de plástico en el producto burger meat picada de vacuno y burger meat picada mixta de la marca Cárnicas Gallego, ambas del lote 6061 y con fecha de caducidad 13/02/2026.",
+  "hazard": "cuerpos-extranos",
+  "hazard_label": "Cuerpos extraños",
+  "allergens": [],
+  "products": [
+    {
+      "brand": "Cárnicas Gállego",
+      "lot": "6061",
+      "expiry": "13/02/2026",
+      "weight": "bandejas de 240 g y 500 g",
+      "temperature": "refrigerado"
+    }
+  ],
+  "brands": [
+    "Cárnicas Gállego"
+  ],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Aragón, Castilla-La Mancha, Castilla y León, Madrid y Comunidad Valenciana, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas. Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI) con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
+  "regions": [
+    "aragon",
+    "castilla-la-mancha",
+    "castilla-y-leon",
+    "comunidad-valenciana",
+    "madrid"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [
+    "Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos.",
+    "Se recomienda a las personas que tengan en su domicilio productos afectados por esta alerta que se abstengan de consumirlos."
+  ],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:a8b71e61-f849-49b6-83ee-d984bedec4f4/plasticos_burger_meat.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:51:46+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:51:46+00:00"
+}

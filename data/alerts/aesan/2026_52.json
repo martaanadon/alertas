@@ -1,0 +1,43 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-52",
+  "url": "https://www.aesan.gob.es/alertas/2026_52",
+  "ref": "ES2026/382",
+  "title": "Advertencia para personas con intolerancia a la lactosa: Lactosa no declarada en etiquetado de producto cárnico procedente de España (Ref ES2026/382)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON INTOLERANCIA A LA LACTOSA de la comercialización de Cabezada de lomo de la marca Jamones Alfredo Monfort, S.L., con presencia de lactosa no incluida en el etiquetado.",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [
+    "leche"
+  ],
+  "products": [
+    {
+      "name": "Cabezada de lomo",
+      "packaging": "envasado al vacío en tacos (envases de 200-1000g) y loncheado (envases de 130-150g)",
+      "lot": "52-25 y 22/10/2026, 05-26 y 29/11/2026, 07-26 y 29/11/2026, 12-26 y 19/01/2027, 10-26 y 05/06/2027",
+      "temperature": "refrigeración"
+    }
+  ],
+  "brands": [],
+  "distribution": "Según la información disponible, la distribución ha sido a las comunidades autonomas de Aragón, Cataluña y Comunidad Valenciana, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
+  "regions": [
+    "aragon",
+    "cataluna",
+    "comunidad-valenciana"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:60c77c46-c33a-44a2-8792-5408de155080/alerta_23_06_2026_2.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ad832c1d-457b-4295-b0be-5de0b04704d6/alerta_23_06_2026_3.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:52:58+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:52:58+00:00"
+}

@@ -1,0 +1,41 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-19",
+  "url": "https://www.aesan.gob.es/alertas/2026_19",
+  "ref": "ES2026/090",
+  "title": "Ampliación de información sobre la alerta por presencia de sulfitos no declarados en azúcar de coco procedente de España (Ref.ES2026/090)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) amplía la información relativa a la alerta por presencia de sulfitos no declarados en el etiquetado en azúcar de coco de la marca Auchan (Ref.ES2026/090).",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [],
+  "products": [
+    {
+      "name": "azúcar de coco sin refinar",
+      "brand": "Auchan",
+      "packaging": "bolsa de plástico",
+      "weight": "500 g",
+      "temperature": "ambiente"
+    }
+  ],
+  "brands": [
+    "Auchan"
+  ],
+  "distribution": "Se ha tenido conocimiento de la distribución de nuevos lotes afectados (L/0110BE, L/0407BE, L/0512BE y L/1111BE) del producto azúcar de coco de la marca Auchan, además de los comunicados anteriormente. Estos productos están siendo retirados de los canales de comercialización. Como ampliación de la información transmitida el pasado 26 de febrero de 2026, la comunidad autónoma de Madrid ha informado a la Agencia Española de Seguridad Alimentaria y Nutrición, a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de que se ha tenido conocimiento de la distribución de nuevos lotes afectados del producto azúcar de coco de la marca Auchan, además de los comunicados anteriormente. Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
+  "regions": [
+    "madrid"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:63c8422d-5cd6-482b-9ec5-c764cc096c2f/cacao_negro_coco.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:52:11+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:52:11+00:00"
+}

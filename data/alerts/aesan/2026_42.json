@@ -1,0 +1,65 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-42",
+  "url": "https://www.aesan.gob.es/alertas/2026_42",
+  "ref": "ES2026/322",
+  "title": "Alerta por presencia de Listeria monocytogenes en queso fresco de vaca procedente de España (Ref. ES2026/322)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por las autoridades sanitarias de la comunidad autónoma de Galicia, a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de la presencia de Listeria monocytogenes en varios quesos frescos de la marca De mi tierra.",
+  "hazard": "listeria",
+  "hazard_label": "Listeria",
+  "allergens": [],
+  "products": [
+    {
+      "name": "Queso Costeño",
+      "expiry": "06/08/2026",
+      "weight": "barra, 500 g, 300 g, 1 kg",
+      "temperature": "refrigerado"
+    },
+    {
+      "name": "Queso amarillo",
+      "expiry": "19/06/2026",
+      "weight": "en barra",
+      "temperature": "refrigerado"
+    },
+    {
+      "name": "Queso fresco duro",
+      "expiry": "25/06/2026",
+      "weight": "barra, 300 g, 500 g, 1 kg",
+      "temperature": "refrigerado"
+    },
+    {
+      "name": "Queso fresco semiduro",
+      "expiry": "20/07/2026",
+      "weight": "barra, 300 g",
+      "temperature": "refrigerado"
+    }
+  ],
+  "brands": [],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Galicia, Aragón, Madrid y Andalucía, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas. Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
+  "regions": [
+    "andalucia",
+    "aragon",
+    "galicia",
+    "madrid"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [
+    "Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos.",
+    "Se recomienda a las personas que tengan en su domicilio productos afectados por esta alerta que se abstengan de consumirlos."
+  ],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:182a6726-26ce-4b91-a938-a64e0f03f46c/alerta_28_05_2026_2.jpg",
+    "https://www.aesan.gob.es/dam/jcr:52391054-29dd-4677-a794-9f84efc77157/alerta_28_05_2026_3.jpg",
+    "https://www.aesan.gob.es/dam/jcr:76ba89de-92e1-40c8-a131-fc486caeb4e2/alerta_28_05_2026_4.jpg",
+    "https://www.aesan.gob.es/dam/jcr:efe853b5-d319-4fc1-96a4-4da1fd213e56/alerta_28_05_2026_5.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:52:44+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:52:44+00:00"
+}

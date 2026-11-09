@@ -1,0 +1,69 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-61",
+  "url": "https://www.aesan.gob.es/alertas/2026_61",
+  "ref": "ES2026/482",
+  "title": "Alerta por posible presencia de cuerpos extraños (fragmentos de vidrio) en confituras y en miel procedentes de Francia (Ref. ES2026/482)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por las autoridades sanitarias de la Comunidad Autónoma de Cantabria, a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de la posible presencia de cuerpos extraños (fragmentos de vidrio) en confituras y en miel de la marca Bonne Maman con fecha de consumo preferente 30/06/2028.",
+  "hazard": "cuerpos-extranos",
+  "hazard_label": "Cuerpos extraños",
+  "allergens": [],
+  "products": [
+    {
+      "name": "Confitura de fresa 30 g",
+      "brand": "Bonne Maman",
+      "packaging": "Tarro de vidrio",
+      "expiry": "30/06/2028",
+      "weight": "30 g",
+      "temperature": "Ambiente"
+    },
+    {
+      "name": "Confitura de frambuesa 30 g",
+      "brand": "Bonne Maman",
+      "packaging": "Tarro de vidrio",
+      "lot": "K154",
+      "expiry": "30/06/2028",
+      "weight": "30 g",
+      "temperature": "Ambiente"
+    },
+    {
+      "name": "Miel",
+      "brand": "Bonne Maman",
+      "packaging": "Tarro de vidrio",
+      "lot": "K157",
+      "expiry": "30/06/2028",
+      "weight": "30 g",
+      "temperature": "Ambiente"
+    }
+  ],
+  "brands": [
+    "Bonne Maman"
+  ],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Islas Baleares, Comunidad Valenciana, Cataluña, Castilla -La Mancha, Andalucía y Madrid, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas. Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
+  "regions": [
+    "andalucia",
+    "baleares",
+    "cataluna",
+    "comunidad-valenciana",
+    "madrid"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [
+    "Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos.",
+    "Se recomienda a las personas que tengan en su domicilio productos afectados por esta alerta, se abstengan de consumirlos."
+  ],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:0940d6fa-28db-432f-83a0-7ca18afe7b0b/Mermelada1.2026-08-17-12-54-10.jpg",
+    "https://www.aesan.gob.es/dam/jcr:0fcd01f2-7e77-48b9-a30c-e56e7dfc67a8/Mermelada2.2026-08-17-12-54-10.jpg",
+    "https://www.aesan.gob.es/dam/jcr:66a9bf0c-0dea-436f-b185-4f4478e3a2d5/Mermelada3.2026-08-17-12-54-10.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:53:15+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:53:15+00:00"
+}

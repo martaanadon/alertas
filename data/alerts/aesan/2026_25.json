@@ -1,0 +1,40 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-25",
+  "url": "https://www.aesan.gob.es/alertas/2026_25",
+  "ref": "ES2026/177",
+  "title": "Alerta por presencia de Listeria monocytogenes en salmón ahumado procedente de España (Ref ES2026/177)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por la comunidad autónoma de Andalucía, a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de la presencia de Listeria monocytogenes en salmón ahumado de la marca Skandia, lote 361214.",
+  "hazard": "listeria",
+  "hazard_label": "Listeria",
+  "allergens": [],
+  "products": [
+    {
+      "name": "Salmón noruego ahumado",
+      "packaging": "envasado en blíster de plástico",
+      "lot": "361214, con fechas de caducidad: 13/04/2026",
+      "weight": "80 g",
+      "temperature": "Refrigerado"
+    }
+  ],
+  "brands": [],
+  "distribution": "Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
+  "regions": [],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [
+    "Se recomienda a las personas que tengan en su domicilio el producto incluido en esta alerta se abstengan de consumirlos..",
+    "Se recomienda a las personas que tengan en su domicilio productos afectados por esta alerta, se abstengan de consumirlos."
+  ],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:b4e50ecf-6e86-452d-9bc4-ac171cc91378/Salmon_mar_2026_1.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:52:19+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:52:19+00:00"
+}

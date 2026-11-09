@@ -1,0 +1,44 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-36",
+  "url": "https://www.aesan.gob.es/alertas/2026_36",
+  "ref": "ES2026/263",
+  "title": "Advertencia para personas con alergia o intolerancia a los componentes de la leche: Presencia de componentes de la leche en galletas saladas (Ref ES2026/263)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON ALERGIA O INTOLERANCIA A LOS COMPONENTES DE LA LECHE de la comercialización galletas saladas TUC de la marca JACOBS con presencia de leche no incluida en el etiquetado en español.",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [
+    "leche"
+  ],
+  "products": [
+    {
+      "name": "Tuc Cracker crema agria y cebolla",
+      "expiry": "30/06/2026",
+      "weight": "100 g",
+      "temperature": "ambiente"
+    }
+  ],
+  "brands": [],
+  "distribution": "Según la información disponible, la distribución ha sido a las comunidades autonomas de Andalucía, Cataluña, Murcia, Islas Baleares y Comunidad Valenciana, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
+  "regions": [
+    "andalucia",
+    "baleares",
+    "cataluna",
+    "comunidad-valenciana",
+    "murcia"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:c67a225c-7980-41ff-bb61-5867fcc52e3b/galleta_tuc.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:52:36+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:52:36+00:00"
+}

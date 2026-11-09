@@ -1,0 +1,43 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-16",
+  "url": "https://www.aesan.gob.es/alertas/2026_16",
+  "ref": "ES2026/103",
+  "title": "Advertencia para personas con alergia a las almendras: Presencia de almendra no declarada en el etiqutedado en yogur con muesli procedente de España (Ref. ES2026/103)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON ALERGIA A LAS ALMENDRAS de la comercialización del producto YOGUR CON MUESLI con presencia de almendras no incluidas en el etiquetado.",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [
+    "frutos-de-cascara"
+  ],
+  "products": [
+    {
+      "name": "Yogur Bífidus Trozos Muesli y Fibra",
+      "brand": "Alteza",
+      "packaging": "Pack de 4 envases de 125 g cada uno",
+      "temperature": "Refrigerado"
+    }
+  ],
+  "brands": [
+    "Alteza"
+  ],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Cantabria y Castilla y León, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
+  "regions": [
+    "cantabria",
+    "castilla-y-leon"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:79579f8f-0717-492f-a1c7-af0440b10888/bifidus-alerta.png",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:52:06+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:52:06+00:00"
+}

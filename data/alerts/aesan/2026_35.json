@@ -1,0 +1,41 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-35",
+  "url": "https://www.aesan.gob.es/alertas/2026_35",
+  "ref": "ES2026/240",
+  "title": "Alerta por presencia de Salmonella spp. en batido proteico vegano en polvo procedente de España (Ref. ES2026/240)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por la Comunidad Valenciana, a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de la presencia de Salmonella spp. en el producto batido proteico vegano en polvo de la marca 226ERS.",
+  "hazard": "salmonella",
+  "hazard_label": "Salmonella",
+  "allergens": [],
+  "products": [
+    {
+      "brand": "226ERS; 226ERS; 226ERS",
+      "weight": "700 g; 700 g; 700 g",
+      "temperature": "ambiente; ambiente; ambiente"
+    }
+  ],
+  "brands": [
+    "226ERS; 226ERS; 226ERS"
+  ],
+  "distribution": "Según la información disponible, la distribución se ha realizado en la mayor parte del territorio nacional. Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
+  "regions": [],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [
+    "Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos."
+  ],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:8230e324-6e95-4b2d-901f-7ca9807db731/proteico_vegano_abril_2026_1.jpg",
+    "https://www.aesan.gob.es/dam/jcr:d8dc9ecb-f82c-46ef-abb4-c129ec688bac/proteico_vegano_abril_2026_2.jpg",
+    "https://www.aesan.gob.es/dam/jcr:0aa269af-5522-4a28-885f-c13ca4c0017a/proteico_vegano_abril_2026_3.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:52:34+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:52:34+00:00"
+}

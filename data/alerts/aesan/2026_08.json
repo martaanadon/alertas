@@ -1,0 +1,47 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-08",
+  "url": "https://www.aesan.gob.es/alertas/2026_08",
+  "ref": "ES2026/074",
+  "title": "Advertencia para personas con alergia al trigo: Presencia de trigo en snacks de maíz procedentes de Filipinas (Ref. ES2026/074)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON ALERGIA AL TRIGO de la comercialización de snacks de maíz de la marca Boy Bawang con presencia de trigo no incluido en el etiquetado.",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [
+    "gluten"
+  ],
+  "products": [
+    {
+      "name": "Cornick Lechon Manok Flavor",
+      "brand": "Boy Bawang",
+      "packaging": "Bolsa",
+      "weight": "90 g",
+      "temperature": "Ambiente"
+    }
+  ],
+  "brands": [
+    "Boy Bawang"
+  ],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Andalucía, Baleares, Cataluña, Madrid y País Vasco , si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
+  "regions": [
+    "andalucia",
+    "baleares",
+    "cataluna",
+    "madrid",
+    "pais-vasco"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:bfad7830-0d6a-4689-8056-179331c24b2a/trigo_nodeclarado.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:51:53+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:51:53+00:00"
+}

@@ -1,0 +1,46 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-63",
+  "url": "https://www.aesan.gob.es/alertas/2026_63",
+  "ref": "ES2026/478",
+  "title": "Advertencia para personas con a alergia a la mostaza: Presencia de mostaza no declarada en pasta alimenticia “cabello de ángel” procedente de Marruecos (Ref.ES2026/478)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON ALERGIA A LA MOSTAZA de la comercialización de pasta alimenticia, “cabello de ángel” de la marca TRIA, con presencia de mostaza no incluida en el etiquetado.",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [
+    "mostaza"
+  ],
+  "products": [
+    {
+      "name": "Cabello de ángel (cheveux d'ange)",
+      "packaging": "envasado en bolsa de plástico",
+      "lot": "L10/2025SHN",
+      "expiry": "16/10/27",
+      "weight": "500 g",
+      "temperature": "ambiente"
+    }
+  ],
+  "brands": [],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Andalucía, Cataluña, Comunidad Valenciana, Murcia y País Vasco, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
+  "regions": [
+    "andalucia",
+    "cataluna",
+    "comunidad-valenciana",
+    "murcia",
+    "pais-vasco"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:8717f27c-0cc5-45e3-974d-6bd1dacaad35/Tria.2026-08-17-13-00-15.png",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:51:04+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:51:04+00:00"
+}

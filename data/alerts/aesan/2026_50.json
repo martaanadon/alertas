@@ -1,0 +1,45 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-50",
+  "url": "https://www.aesan.gob.es/alertas/2026_50",
+  "ref": "ES2026/370",
+  "title": "Alerta por presencia de sildenafilo y tadalafilo en complemento alimenticio procedente de Turquía. (Ref.ES2026/370)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) informa de la retirada del producto ERKEXIN comercializado como complemento alimenticio por presencia de sildenafilo y tadalafilo no declarados en el etiquetado, y que puede producir reacciones adversas de diversa gravedad.",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [],
+  "products": [
+    {
+      "name": "Erkexin",
+      "packaging": "bote cilíndrico con sobres monodosis",
+      "lot": "20.01/MS0025",
+      "expiry": "01/02/2027",
+      "weight": "20 g/sobre",
+      "temperature": "ambiente"
+    }
+  ],
+  "brands": [],
+  "distribution": "Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
+  "regions": [],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [
+    "Se recomienda a las personas que tengan en su domicilio el producto incluido en esta alerta se abstengan de consumirlo.",
+    "Se recomienda a las personas que tengan en su domicilio el producto afectado por esta alerta, se abstengan de consumirlo."
+  ],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:e8c9d3cc-b2e0-4537-816c-ab8679826d6c/alerta_19_06_2026_10.jpg",
+    "https://www.aesan.gob.es/dam/jcr:41946f3e-87fd-4404-ad6f-a9a7af37f9f4/alerta_19_06_2026_11.jpg",
+    "https://www.aesan.gob.es/dam/jcr:b32eff87-78a2-4334-961d-9ff6f23ed1fa/alerta_19_06_2026_12.jpg",
+    "https://www.aesan.gob.es/dam/jcr:34938921-bfe5-4a33-8afb-16d90ade3410/alerta_19_06_2026_13.jpg",
+    "https://www.aesan.gob.es/dam/jcr:de96f549-e028-4ab1-b2ec-4ca08f1b1e3d/alerta_19_06_2026_14.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:51:02+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:51:02+00:00"
+}

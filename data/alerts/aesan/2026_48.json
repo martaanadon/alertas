@@ -1,0 +1,41 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-48",
+  "url": "https://www.aesan.gob.es/alertas/2026_48",
+  "ref": "ES2026/350",
+  "title": "Alerta por presencia de Listeria monocytogenes en bloc de foie gras de pato procedente de Bulgaria (Ref. ES2026/350)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por las autoridades sanitarias de la comunidad autónoma de País Vasco, a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de la presencia de Listeria monocytogenes en bloc de foie gras de pato de la marca Capdevila, lote L26029311821.",
+  "hazard": "listeria",
+  "hazard_label": "Listeria",
+  "allergens": [],
+  "products": [
+    {
+      "name": "Bloc foie gras de pato Mi-Cuit",
+      "packaging": "envase de plástico, con cartón",
+      "lot": "L26029311821",
+      "expiry": "29/01/27",
+      "weight": "40 g",
+      "temperature": "refrigerado"
+    }
+  ],
+  "brands": [],
+  "distribution": "Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
+  "regions": [],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [
+    "Se recomienda a las personas que tengan en su domicilio el producto incluido en esta alerta se abstengan de consumirlos.",
+    "Se recomienda a las personas que tengan en su domicilio productos afectados por esta alerta, se abstengan de consumirlos."
+  ],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:a368a2c9-cda6-4b04-9b46-e7efb0f15b2d/alerta_15_06_2026_2.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:52:53+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:52:53+00:00"
+}

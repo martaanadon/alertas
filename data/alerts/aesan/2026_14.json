@@ -1,0 +1,41 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-14",
+  "url": "https://www.aesan.gob.es/alertas/2026_14",
+  "ref": "ES2026/090",
+  "title": "Advertencia para personas con intolerancia a los sulfitos: presencia de sulfitos no declarados en el etiquetado de azúcar de coco procedente de España (Ref. ES2026/090)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON INTOLERANCIA A LOS SULFITOS de la comercialización de azúcar de coco de la marca Auchan con presencia de sulfitos no incluidos en el etiquetado.",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [],
+  "products": [
+    {
+      "name": "azúcar de coco sin refinar",
+      "brand": "Auchan",
+      "packaging": "bolsa de plástico",
+      "lot": "L /1004BE",
+      "weight": "500 g",
+      "temperature": "ambiente"
+    }
+  ],
+  "brands": [
+    "Auchan"
+  ],
+  "distribution": "",
+  "regions": [],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:e5f1053b-3068-4387-82f6-d4a468d54bf5/alerta_azucar_coco.jpg",
+    "https://www.aesan.gob.es/dam/jcr:01896e88-bc37-4691-bb16-b3628ac6650f/alerta_azucar_coco_1.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:52:03+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:52:03+00:00"
+}

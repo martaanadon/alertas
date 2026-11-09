@@ -1,0 +1,32 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-68",
+  "url": "https://www.aesan.gob.es/alertas/2026_68",
+  "ref": "ES2026/575",
+  "title": "Advertencia para personas con alergia al cacahuete: Presencia de cacahuete no declarado en uno de los campos del etiquetado en helado procedente de España (Ref. ES2026/575)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON ALERGIA AL CACAHUETE de la comercialización de helado sabor plátano y brownie con presencia de cacahuete no incluido en uno de los campos del etiquetado.",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [
+    "cacahuete"
+  ],
+  "products": [],
+  "brands": [],
+  "distribution": "",
+  "regions": [],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:9212d71b-c161-4718-9d2b-e54df63b45f4/1.2026-09-25-14-42-08.png",
+    "https://www.aesan.gob.es/dam/jcr:a19ed015-4f59-478c-b72c-b27d93d12fa7/2.2026-09-25-14-42-08.png",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:51:11+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:51:11+00:00"
+}

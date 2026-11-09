@@ -1,0 +1,72 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-02",
+  "url": "https://www.aesan.gob.es/alertas/2026_02",
+  "ref": "ES2026/017",
+  "title": "Alerta por presencia de fragmentos del molde de fabricación en pandoro procedente de Italia (Ref ES2026/017)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por el Estado miembro de Italia, a través de la Red de Alerta Alimentaria Europea (RASFF), de la presencia de fragmentos del molde de fabricación, en el producto Pandoro (diferentes variedades), de la marca PIACERI MEDITERRANEI, con varias fechas de caducidad.",
+  "hazard": "cuerpos-extranos",
+  "hazard_label": "Cuerpos extraños",
+  "allergens": [],
+  "products": [
+    {
+      "name": "Pandoro",
+      "brand": "PIACERI MEDITERRANEI",
+      "weight": "650 g",
+      "temperature": "ambiente"
+    },
+    {
+      "name": "Pandoro crema cioccolato",
+      "brand": "PIACERI MEDITERRANEI",
+      "weight": "700 g",
+      "temperature": "ambiente"
+    },
+    {
+      "name": "Pandoro crema limone",
+      "brand": "PIACERI MEDITERRANEI",
+      "weight": "700 g",
+      "temperature": "ambiente"
+    },
+    {
+      "name": "Pandoro caramello salato",
+      "brand": "PIACERI MEDITERRANEI",
+      "weight": "700 g",
+      "temperature": "ambiente"
+    },
+    {
+      "name": "Pandoro al pistacchio",
+      "brand": "PIACERI MEDITERRANEI",
+      "weight": "700 g",
+      "temperature": "ambiente"
+    }
+  ],
+  "brands": [
+    "PIACERI MEDITERRANEI"
+  ],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Madrid y Cataluña , si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas. Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
+  "regions": [
+    "cataluna",
+    "madrid"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [
+    "Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos.",
+    "Se recomienda a las personas que tengan en su domicilio productos afectados por esta alerta, se abstengan de consumirlos."
+  ],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:4ac024cf-67a5-45c9-a6a7-d31cdc330950/pandoro1.jpg",
+    "https://www.aesan.gob.es/dam/jcr:18fe95ce-0ade-47b5-8ba4-3c4538cced3d/pandoro2.jpg",
+    "https://www.aesan.gob.es/dam/jcr:60ce5846-4aa1-4c75-837d-ac51d169d2bf/pandoro3.jpg",
+    "https://www.aesan.gob.es/dam/jcr:b4c5405d-2a9d-4b8d-becd-960981e16faf/pandoro4.jpg",
+    "https://www.aesan.gob.es/dam/jcr:9d0e380f-58c7-490a-ab76-601a658e0bc8/pandoro5.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:51:34+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:51:34+00:00"
+}

@@ -1,0 +1,69 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-65",
+  "url": "https://www.aesan.gob.es/alertas/2026_65",
+  "ref": "ES2026/517",
+  "title": "Advertencia por presencia de gluten: gluten no declarado en salsas etiquetadas \"sin gluten\" procedentes de España. (Ref. ES2026/517 )",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE de la presencia de GLUTEN no incluido en el etiquetado en varias salsas: salsa barbacoa (BBQ) y salsa chimichurri marca Vulpi y Salsa barbacoa (BBQ) marca Dumt’s.",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [
+    "gluten"
+  ],
+  "products": [
+    {
+      "name": "Salsa barbacoa (BBQ)",
+      "brand": "Vulpi",
+      "packaging": "Envasado en botella de plástico",
+      "ean": [
+        "8437023947814"
+      ],
+      "weight": "600 g",
+      "temperature": "ambiente"
+    },
+    {
+      "name": "Salsa chimichurri",
+      "brand": "Vulpi",
+      "packaging": "Envasado en botella de plástico",
+      "ean": [
+        "8437023947906"
+      ],
+      "weight": "210 g",
+      "temperature": "ambiente"
+    },
+    {
+      "name": "Salsa barbacoa (BBQ)",
+      "packaging": "Envasado en botella de plástico",
+      "ean": [
+        "8437023947029"
+      ],
+      "weight": "225 g",
+      "temperature": "ambiente"
+    }
+  ],
+  "brands": [
+    "Vulpi"
+  ],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Andalucía y Madrid, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas. Esta información ha sido trasladada a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización. Como medida de precaución, se recomienda a las personas con problemas derivados de la ingesta de gluten que pudieran tener el producto anteriormente mencionado en sus hogares que se abstengan de consumirlo. EL CONSUMO DE ESTE PRODUCTO NO COMPORTA NINGÚN RIESGO PARA EL RESTO DE LA POBLACIÓN. Puede ampliar información de la AESAN sobre alergias, intolerancias y problemas derivados de la ingesta de gluten en los siguientes enlaces:",
+  "regions": [
+    "andalucia",
+    "madrid"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:a5de2859-344b-4085-a739-e89a2cbdd963/1.2026-08-26-13-39-49.png",
+    "https://www.aesan.gob.es/dam/jcr:b85b9ea8-4af5-45af-9cec-289f9ee1b79a/2.2026-08-26-13-40-07.png",
+    "https://www.aesan.gob.es/dam/jcr:c36c145d-3ac9-4c32-8db2-e55311be5d9b/3.2026-08-26-13-40-23.png",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp",
+    "https://www.aesan.gob.es/dam/jcr:34432d9b-a474-4b98-8e4e-74ae81d9fd72/GUIA_ETIQUETADO_GLUTEN.jpg"
+  ],
+  "first_seen": "2026-11-09T15:51:05+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:51:05+00:00"
+}

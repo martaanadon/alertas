@@ -1,0 +1,33 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-71",
+  "url": "https://www.aesan.gob.es/alertas/2026_71",
+  "ref": "ES2026/606",
+  "title": "Alerta por presencia de sildenafilo en complementos alimenticios de origen desconocido (Ref.ES2026/606)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) informa de la retirada de los productos Etumax Royal Honey, Miel Soudan VIP, Epimedyumlu Macum y Organic Honey, comercializados como complementos alimenticios, por presencia de sildenafilo no declarado en el etiquetado, y que puede producir reacciones adversas de diversa gravedad.",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [],
+  "products": [],
+  "brands": [],
+  "distribution": "Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
+  "regions": [],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [
+    "Se recomienda a las personas que tengan en su domicilio productos incluidos en esta alerta, se abstengan de consumirlos.",
+    "Se recomienda a las personas que tengan en su domicilio productos afectados por esta alerta, se abstengan de consumirlos."
+  ],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:12d046cc-2930-4c74-a0cf-e1256c9dde5b/alerta_09_10_2026_2.2026-10-09-10-28-39.png",
+    "https://www.aesan.gob.es/dam/jcr:dc3b9be3-824a-417d-bd34-274c276190c5/alerta_09_10_2026_1.2026-10-09-10-29-20.png",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:51:15+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:51:15+00:00"
+}

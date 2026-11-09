@@ -1,0 +1,44 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-34",
+  "url": "https://www.aesan.gob.es/alertas/2026_34",
+  "ref": "ES2026/252",
+  "title": "Alerta por presencia de Salmonella spp. en brotes germinados procedentes de España. (Ref. ES2026/252)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por la Comunidad Autónoma de Andalucía, a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de la presencia de Salmonella spp. en el producto brotes germinados de la marca Carrefour Classic con fecha de caducidad 12/03/2029.",
+  "hazard": "salmonella",
+  "hazard_label": "Salmonella",
+  "allergens": [],
+  "products": [
+    {
+      "name": "Brotes germinados",
+      "brand": "Carrefour Classic",
+      "lot": "L-12Q03 con fecha de caducidad 12/03/2029",
+      "weight": "Peso neto 345 g y peso neto escurrido 180 g",
+      "temperature": "Ambiente"
+    }
+  ],
+  "brands": [
+    "Carrefour Classic"
+  ],
+  "distribution": "",
+  "regions": [],
+  "nationwide": false,
+  "supermarkets": [
+    "carrefour"
+  ],
+  "recommendations": [
+    "Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos.",
+    "Se recomienda a las personas que tengan en su domicilio productos afectados por esta alerta, se abstengan de consumirlos."
+  ],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:4afc0ab6-8fd5-4beb-ac44-e99f39b42380/brote_geraneos_abril_2026.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:52:33+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:52:33+00:00"
+}

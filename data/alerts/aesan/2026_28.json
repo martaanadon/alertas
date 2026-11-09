@@ -1,0 +1,72 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-28",
+  "url": "https://www.aesan.gob.es/alertas/2026_28",
+  "ref": "ES2026/181",
+  "title": "Advertencia para personas con alergia al trigo: posible presencia de trigo y otros cereales no declarados en lentejas pardinas etiquetadas como libres de alérgenos (Ref. ES2026/181).",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON ALERGIA AL TRIGO Y OTROS CEREALES de la comercialización de lentejas pardinas de la marca BioArtesa con presencia de trigo y otros cereales no incluida en el etiquetado.",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [
+    "gluten"
+  ],
+  "products": [
+    {
+      "name": "Lenteja Pardina Bio",
+      "brand": "BioArtesa",
+      "packaging": "paquete",
+      "weight": "500 g",
+      "temperature": "ambiente"
+    },
+    {
+      "name": "Lenteja Pardina Bio",
+      "brand": "BioArtesa",
+      "packaging": "saco",
+      "weight": "5 kg",
+      "temperature": "ambiente"
+    },
+    {
+      "name": "Lenteja Pardina Bio",
+      "brand": "BioArtesa",
+      "packaging": "saco",
+      "weight": "25 kg",
+      "temperature": "ambiente"
+    }
+  ],
+  "brands": [
+    "BioArtesa"
+  ],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Andalucía, Asturias, Canarias, Cantabria, Castilla y León, Cataluña, Comunidad Valenciana, Extremadura, Galicia, La Rioja, Madrid, Murcia, Navarra y País Vasco, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
+  "regions": [
+    "andalucia",
+    "asturias",
+    "canarias",
+    "cantabria",
+    "castilla-y-leon",
+    "cataluna",
+    "comunidad-valenciana",
+    "extremadura",
+    "galicia",
+    "madrid",
+    "murcia",
+    "navarra",
+    "pais-vasco",
+    "la-rioja"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:8c3e9669-287f-4595-aa62-212ac40094c4/lenteja_abril_2026.jpg",
+    "https://www.aesan.gob.es/dam/jcr:f9b7f11f-0d34-4902-ab36-fa9d89024c78/lenteja_abril_2026_1.jpg",
+    "https://www.aesan.gob.es/dam/jcr:3f3db14a-e1b8-460e-9162-6702d54e9a70/lenteja_abril_2026_2.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:52:24+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:52:24+00:00"
+}

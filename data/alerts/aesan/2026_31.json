@@ -1,0 +1,48 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-31",
+  "url": "https://www.aesan.gob.es/alertas/2026_31",
+  "ref": "ES2026/208",
+  "title": "Alerta por presencia de Listeria monocytogenes en salmón ahumado noruego con pistacho procedente de Italia (Ref. ES2026/208)",
+  "date": null,
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por Italia a través de la Red de Alerta Alimentaria Europea (RASFF), de la presencia de Listeria monocytogenes en salmón ahumado noruego con pistacho marca Deluxe con fecha de caducidad 18/04/26.",
+  "hazard": "listeria",
+  "hazard_label": "Listeria",
+  "allergens": [],
+  "products": [
+    {
+      "name": "Norwegian smoked salmon with pistachio (Salmón ahumado noruego con pistacho)",
+      "brand": "Deluxe",
+      "packaging": "envasado en blíster de plástico",
+      "lot": "LC22606501",
+      "expiry": "18/04/26",
+      "weight": "100 g",
+      "temperature": "refrigerado"
+    }
+  ],
+  "brands": [
+    "Deluxe"
+  ],
+  "distribution": "La empresa distribuidora del producto ha publicado la siguiente información: Según la información disponible, la distribución inicial ha sido en las Islas Canarias, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas. Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
+  "regions": [
+    "canarias"
+  ],
+  "nationwide": false,
+  "supermarkets": [
+    "lidl"
+  ],
+  "recommendations": [
+    "Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos.",
+    "Se recomienda a las personas que tengan en su domicilio productos afectados por esta alerta que se abstengan de consumirlos."
+  ],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:4ee73525-7515-4e5f-8b78-050c87d41082/salmon_abril_2026.jpg",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-09T15:52:28+00:00",
+  "history": [],
+  "last_checked": "2026-11-09T15:52:28+00:00"
+}
