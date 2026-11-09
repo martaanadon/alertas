@@ -4,7 +4,7 @@
   "url": "https://www.aesan.gob.es/alertas/2026_54",
   "ref": "ES2026/431",
   "title": "Advertencia por presencia de gluten: presencia de gluten en harina de garbanzo procedente de España. (Ref. ES2026/431)",
-  "date": null,
+  "date": "2026-07-10",
   "category": null,
   "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE de la presencia de GLUTEN no incluido en el etiquetado en harina de garbanzo de la marca Harinas de Mallorca.",
   "hazard": "otros",
@@ -37,10 +37,10 @@
     "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
   ],
   "first_seen": "2026-11-09T15:53:01+00:00",
+  "last_checked": "2026-11-09T15:57:48+00:00",
   "history": [
     {
       "changed": "2026-11-09T15:57:48+00:00"
     }
-  ],
-  "last_checked": "2026-11-09T15:57:48+00:00"
+  ]
 }

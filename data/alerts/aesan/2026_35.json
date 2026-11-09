@@ -18,7 +18,7 @@
     }
   ],
   "brands": [
-    "226ERS; 226ERS; 226ERS"
+    "226ERS"
   ],
   "distribution": "Según la información disponible, la distribución se ha realizado en la mayor parte del territorio nacional. Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
   "regions": [],
@@ -36,10 +36,10 @@
     "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
   ],
   "first_seen": "2026-11-09T15:52:34+00:00",
+  "last_checked": "2026-11-09T15:57:22+00:00",
   "history": [
     {
       "changed": "2026-11-09T15:57:22+00:00"
     }
-  ],
-  "last_checked": "2026-11-09T15:57:22+00:00"
+  ]
 }

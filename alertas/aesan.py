@@ -56,6 +56,14 @@ def _blocks(soup: BeautifulSoup) -> list:
 
 
 def _parse_date_soup(soup):
+    # current AESAN layout: <div class="pageInfo..."><span>calendar_today</span><span>18/03/2026</span>
+    icon = soup.find(lambda t: t.name == "span" and t.get_text(strip=True) == "calendar_today")
+    if icon:
+        nxt = icon.find_next("span")
+        m = re.search(r"(\d{1,2})/(\d{1,2})/(\d{4})", nxt.get_text() if nxt else "")
+        if m:
+            d, mo, y = map(int, m.groups())
+            return date(y, mo, d).isoformat()
     for attrs in ({"property": "article:published_time"}, {"name": "dcterms.date"}, {"name": "date"},
                   {"property": "og:updated_time"}):
         m = soup.find("meta", attrs=attrs)
@@ -145,10 +153,11 @@ def parse_alert(html: str, url: str) -> dict:
     hazard_slug, hazard_label = tx.classify_hazard(title, summary)
     regions, nationwide = tx.detect_regions(dist)
     products = _parse_products(blocks)
-    brands = sorted({p["brand"].strip() for p in products if p.get("brand")})
+    brands = sorted({b.strip() for p in products if p.get("brand") for b in p["brand"].split(";")
+                     if len(b.strip()) > 2})
     if not brands:
-        m = re.search(r"\bde la marca ([A-ZÁÉÍÓÚÑ0-9][\wÁÉÍÓÚÑáéíóúñ&'.-]*(?: [A-ZÁÉÍÓÚÑ0-9][\wÁÉÍÓÚÑáéíóúñ&'.-]*){0,3})",
-                      summary + " " + full)
+        m = re.search(r"\bde la marca ([A-ZÁÉÍÓÚÑ0-9][\wÁÉÍÓÚÑáéíóúñ&'-]*(?: [A-ZÁÉÍÓÚÑ0-9][\wÁÉÍÓÚÑáéíóúñ&'-]*){0,3})",
+                      summary + "\n" + full)
         if m:
             brands = [m.group(1).strip(" .,")]
 

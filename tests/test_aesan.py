@@ -54,3 +54,13 @@ def test_dia_needs_capital():
 def test_slugify():
     assert tx.slugify("Castilla y León") == "castilla-y-leon"
     assert tx.slugify("URKABE") == "urkabe"
+
+
+def test_date_from_page_info_block():
+    html = ('<html><body><main><h1>Alerta por presencia de Salmonella en kéfir (Ref. ES2026/659)</h1>'
+            '<div class="pageInfo__date"><span class="material-symbols-outlined">calendar_today</span>'
+            '<span>04/11/2026</span></div><p>La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) '
+            'informa de la presencia de Salmonella en kéfir de cabra de la marca Ejemplo Lácteos.</p></main></body></html>')
+    a = parse_alert(html, "https://www.aesan.gob.es/alertas/2026_79")
+    assert a["date"] == "2026-11-04"
+    assert a["brands"] == ["Ejemplo Lácteos"]
