@@ -27,6 +27,19 @@ def discover(raw_dir: Path) -> dict:
         result["bytes"] = len(r.content)
         if r.ok:
             (raw_dir / f"weekly_list_{stamp}.xml").write_bytes(r.content)
+            # also save the 2 latest weekly reports, in Spanish and English, to write the parser
+            import re
+            refs = re.findall(r"<reference>(Report-\d{4}-\d+)</reference>.*?<URL>(.*?)</URL>", r.text, re.S)[:2]
+            result["reports"] = []
+            for ref, link in refs:
+                link = link.replace("&amp;", "&")
+                for lang in ("es", "en"):
+                    u = re.sub(r"language=\w+", f"language={lang}", link)
+                    d = requests.get(u, headers=HEADERS, timeout=120)
+                    result["reports"].append({"ref": ref, "lang": lang, "status": d.status_code,
+                                              "bytes": len(d.content)})
+                    if d.ok:
+                        (raw_dir / f"{ref}_{lang}.xml").write_bytes(d.content)
     except Exception as e:
         result["error"] = str(e)
     (raw_dir / "last_discovery.json").write_text(json.dumps(result, indent=2))

@@ -163,35 +163,81 @@ def fetch(session, url):
     return r.text
 
 
+LISTINGS = ["https://www.aesan.gob.es/alertas", "https://www.aesan.gob.es/alertas/alertas-alimentarias"]
+KEY_RE = re.compile(r"/alertas/(\d{4})_([0-9]+(?:_[A-Za-z]+(?:_\d+)?)?)(?=[\"'/?#]|$)")
+
+
+def discover_keys(session, raw_dir: Path) -> set:
+    """Alert keys (e.g. '2026_80', '2026_55_ampliacion_1') linked from the listing pages."""
+    keys = set()
+    for i, listing in enumerate(LISTINGS):
+        for page in range(0, 30):
+            url = listing if page == 0 else f"{listing}?page={page}"
+            try:
+                r = session.get(url, headers=HEADERS, timeout=30)
+            except Exception:
+                break
+            if not r.ok:
+                break
+            if page == 0:
+                (raw_dir / f"_listing_{i}.html").write_text(r.text)
+            found = {f"{y}_{n}" for y, n in KEY_RE.findall(r.text)}
+            if not found - keys:
+                break
+            keys |= found
+            time.sleep(0.5)
+    return keys
+
+
 def collect(year: int, out_dir: Path, raw_dir: Path, refresh_last: int = 10,
-            max_misses: int = 6, delay: float = 1.0) -> dict:
-    """Walk YYYY_1, YYYY_2 ... ; re-fetch the newest `refresh_last` to catch amendments."""
+            max_misses: int = 15, delay: float = 1.0) -> dict:
+    """Fetch every alert of `year`: keys found on the listing pages plus a sequential walk
+    (YYYY_1, YYYY_2 ... trying zero-padded forms too). The newest `refresh_last` known
+    alerts are always re-fetched to catch amendments."""
     out_dir.mkdir(parents=True, exist_ok=True)
     raw_dir.mkdir(parents=True, exist_ok=True)
-    existing = sorted(int(p.stem.split("_")[1]) for p in out_dir.glob(f"{year}_*.json"))
-    refresh_from = max(existing[-refresh_last:], default=1) if existing else 1
     session = requests.Session()
-    stats = {"new": 0, "updated": 0, "unchanged": 0, "errors": []}
+    stats = {"new": 0, "updated": 0, "unchanged": 0, "errors": [], "probe": {}}
+
+    listed = {k for k in discover_keys(session, raw_dir) if k.startswith(f"{year}_")}
+    stats["listed"] = len(listed)
+    existing = {p.stem for p in out_dir.glob(f"{year}_*.json")}
+    nums = sorted(int(k.split("_")[1]) for k in existing | listed)
+    refresh = {k for k in existing if int(k.split("_")[1]) in nums[-refresh_last:]}
+
+    candidates = []
+    for k in sorted(listed, key=lambda k: [int(x) if x.isdigit() else 0 for x in k.split("_")]):
+        if k not in existing or k in refresh:
+            candidates.append([k])
+    # sequential walk with padded variants, to catch alerts no longer on the listing
+    top = max(nums, default=0)
     n, misses = 1, 0
-    while misses < max_misses:
-        key = f"{year}_{n}"
-        path = out_dir / f"{key}.json"
-        if path.exists() and n < refresh_from:
-            n += 1
-            misses = 0
+    while n <= top or misses < max_misses:
+        variants = [f"{year}_{n}", f"{year}_{n:02d}", f"{year}_{n:03d}"]
+        variants = list(dict.fromkeys(variants))
+        if not any(v in existing and v not in refresh for v in variants) and \
+                not any(v in listed for v in variants):
+            candidates.append(variants)
+        n += 1
+        if n > top:
+            misses += 1
+
+    for variants in candidates:
+        html, key = None, variants[0]
+        for v in variants:
+            try:
+                html = fetch(session, BASE + v)
+            except Exception as e:  # network errors are recorded, not fatal
+                stats["errors"].append(f"{v}: {e}")
+            time.sleep(delay)
+            if html is not None:
+                key = v
+                break
+        stats["probe"][variants[0]] = key if html else 404
+        if html is None:
             continue
         url = BASE + key
-        try:
-            html = fetch(session, url)
-        except Exception as e:  # network errors are recorded, not fatal
-            stats["errors"].append(f"{key}: {e}")
-            html = None
-        time.sleep(delay)
-        if html is None:
-            misses += 1
-            n += 1
-            continue
-        misses = 0
+        path = out_dir / f"{key}.json"
         alert = parse_alert(html, url)
         now = datetime.now(timezone.utc).isoformat(timespec="seconds")
         if path.exists():
@@ -201,7 +247,6 @@ def collect(year: int, out_dir: Path, raw_dir: Path, refresh_last: int = 10,
                 old["last_checked"] = now
                 path.write_text(json.dumps(old, ensure_ascii=False, indent=2))
                 stats["unchanged"] += 1
-                n += 1
                 continue
             alert["first_seen"] = old.get("first_seen", now)
             alert["history"] = old.get("history", []) + [{"changed": now}]
@@ -213,7 +258,8 @@ def collect(year: int, out_dir: Path, raw_dir: Path, refresh_last: int = 10,
         alert["last_checked"] = now
         path.write_text(json.dumps(alert, ensure_ascii=False, indent=2))
         (raw_dir / f"{key}.txt").write_text("\n".join(_blocks(BeautifulSoup(html, "html.parser"))))
-        n += 1
+    (raw_dir / f"_probe_{year}.json").write_text(json.dumps(
+        {k: v for k, v in stats.items() if k != "errors"} | {"errors": stats["errors"][:50]}, indent=1))
     return stats
 
 
@@ -226,7 +272,7 @@ if __name__ == "__main__":
     years = args.year or [date.today().year]
     for y in years:
         s = collect(y, Path(args.data) / "alerts" / "aesan", Path(args.data) / "raw" / "aesan")
-        print(f"AESAN {y}: {s['new']} new, {s['updated']} updated, {s['unchanged']} unchanged, "
+        print(f"AESAN {y}: {s['listed']} listed, {s['new']} new, {s['updated']} updated, {s['unchanged']} unchanged, "
               f"{len(s['errors'])} errors")
         for e in s["errors"][:10]:
             print("  ", e)
