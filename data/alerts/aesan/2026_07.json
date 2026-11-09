@@ -4,7 +4,7 @@
   "url": "https://www.aesan.gob.es/alertas/2026_07",
   "ref": "ES2026/072",
   "title": "Advertencia para personas con alergia y/o intolerancia a los componentes de la leche, a las almendras, la soja y/o el huevo: Ausencia de etiquetado en castellano en barra de chocolate negro procedente de Suiza (Ref.ES2026/072)",
-  "date": null,
+  "date": "2026-02-12",
   "category": null,
   "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON ALERGIA / INTOLERANCIA A LOS COMPONENTES DE LA LECHE, LAS ALMENDRAS, LA SOJA Y/O EL HUEVO de la comercialización de barra de chocolate negro de la marca Toblerone sin etiquetado en castellano.",
   "hazard": "alergenos",
@@ -49,6 +49,10 @@
     "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
   ],
   "first_seen": "2026-11-09T15:51:50+00:00",
-  "history": [],
-  "last_checked": "2026-11-09T15:51:50+00:00"
+  "history": [
+    {
+      "changed": "2026-11-09T15:56:37+00:00"
+    }
+  ],
+  "last_checked": "2026-11-09T15:56:37+00:00"
 }

@@ -4,7 +4,7 @@
   "url": "https://www.aesan.gob.es/alertas/2026_47",
   "ref": "ES2026/349",
   "title": "Alerta por presencia de ácido cianhídrico en semillas de lino procedentes de La India (Ref. ES2026/349)",
-  "date": null,
+  "date": "2026-06-15",
   "category": null,
   "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por las autoridades sanitarias de Malta, a través de la Red de Alerta Alimentaria Europea (RASFF), de la presencia de ácido cianhídrico en el producto semillas de lino de la marca ApnaBaba con fecha de caducidad 20/06/2027",
   "hazard": "otros",
@@ -44,6 +44,10 @@
     "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
   ],
   "first_seen": "2026-11-09T15:52:52+00:00",
-  "history": [],
-  "last_checked": "2026-11-09T15:52:52+00:00"
+  "history": [
+    {
+      "changed": "2026-11-09T15:57:39+00:00"
+    }
+  ],
+  "last_checked": "2026-11-09T15:57:39+00:00"
 }

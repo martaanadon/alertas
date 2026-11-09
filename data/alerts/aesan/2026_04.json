@@ -4,7 +4,7 @@
   "url": "https://www.aesan.gob.es/alertas/2026_04",
   "ref": "ES2026/043",
   "title": "Alerta por posible presencia de cereulida en fórmula infantil procedente de Irlanda (Ref ES2026/043)",
-  "date": null,
+  "date": "2026-01-24",
   "category": null,
   "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por las autoridades sanitarias de Irlanda, a través de la Red de Alerta Alimentaria Europea (RASFF), de la posible presencia de cereulida en el producto ALMIRON PROFUTURA 1 con fecha de caducidad 19.08.2027, de la marca ALMIRON.",
   "hazard": "otros",
@@ -38,6 +38,10 @@
     "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
   ],
   "first_seen": "2026-11-09T15:51:40+00:00",
-  "history": [],
-  "last_checked": "2026-11-09T15:51:40+00:00"
+  "history": [
+    {
+      "changed": "2026-11-09T15:56:28+00:00"
+    }
+  ],
+  "last_checked": "2026-11-09T15:56:28+00:00"
 }

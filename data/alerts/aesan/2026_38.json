@@ -4,7 +4,7 @@
   "url": "https://www.aesan.gob.es/alertas/2026_38",
   "ref": "ES2026/271",
   "title": "Alerta por presencia de Listeria monocytogenes en queso fresco de vaca procedente de España (Ref. ES2026/271)",
-  "date": null,
+  "date": "2026-05-12",
   "category": null,
   "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por las autoridades sanitarias de la comunidad autónoma de Aragón, a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de la presencia de Listeria monocytogenes en Queso Latino (Queso fresco de vaca) de la marca Goya, lotes 011056 y 021046.",
   "hazard": "listeria",
@@ -18,7 +18,9 @@
       "temperature": "refrigerado"
     }
   ],
-  "brands": [],
+  "brands": [
+    "Goya"
+  ],
   "distribution": "Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
   "regions": [],
   "nationwide": false,
@@ -34,6 +36,10 @@
     "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
   ],
   "first_seen": "2026-11-09T15:52:39+00:00",
-  "history": [],
-  "last_checked": "2026-11-09T15:52:39+00:00"
+  "history": [
+    {
+      "changed": "2026-11-09T15:57:26+00:00"
+    }
+  ],
+  "last_checked": "2026-11-09T15:57:26+00:00"
 }

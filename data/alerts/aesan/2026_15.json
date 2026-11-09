@@ -4,7 +4,7 @@
   "url": "https://www.aesan.gob.es/alertas/2026_15",
   "ref": "ES2026/104",
   "title": "Advertencia para personas con alergia o intolerancia a los componentes de la leche: Presencia de componentes de la leche no declarados en el etiquetado en biscotes procedentes de España (Ref ES2026/104)",
-  "date": null,
+  "date": "2026-03-03",
   "category": null,
   "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON ALERGIA O INTOLERANCIA A LOS COMPONENTES DE LA LECHE de la comercialización biscotes de la marca PROCELI con presencia de leche no incluida en el etiquetado.",
   "hazard": "alergenos",
@@ -18,7 +18,9 @@
       "temperature": "ambiente"
     }
   ],
-  "brands": [],
+  "brands": [
+    "PROCELI"
+  ],
   "distribution": "Según la información disponible, la distribución ha sido a las comunidades autonomas de Andalucía, Canarias, Castilla y León, Cataluña, Extremadura, Galicia, Madrid, Murcia, Navarra y País Vasco, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
   "regions": [
     "andalucia",
@@ -42,6 +44,10 @@
     "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
   ],
   "first_seen": "2026-11-09T15:52:05+00:00",
-  "history": [],
-  "last_checked": "2026-11-09T15:52:05+00:00"
+  "history": [
+    {
+      "changed": "2026-11-09T15:56:53+00:00"
+    }
+  ],
+  "last_checked": "2026-11-09T15:56:53+00:00"
 }

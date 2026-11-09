@@ -4,7 +4,7 @@
   "url": "https://www.aesan.gob.es/alertas/2026_42",
   "ref": "ES2026/322",
   "title": "Alerta por presencia de Listeria monocytogenes en queso fresco de vaca procedente de España (Ref. ES2026/322)",
-  "date": null,
+  "date": "2026-05-29",
   "category": null,
   "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por las autoridades sanitarias de la comunidad autónoma de Galicia, a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de la presencia de Listeria monocytogenes en varios quesos frescos de la marca De mi tierra.",
   "hazard": "listeria",
@@ -36,7 +36,9 @@
       "temperature": "refrigerado"
     }
   ],
-  "brands": [],
+  "brands": [
+    "De"
+  ],
   "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Galicia, Aragón, Madrid y Andalucía, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas. Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
   "regions": [
     "andalucia",
@@ -60,6 +62,10 @@
     "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
   ],
   "first_seen": "2026-11-09T15:52:44+00:00",
-  "history": [],
-  "last_checked": "2026-11-09T15:52:44+00:00"
+  "history": [
+    {
+      "changed": "2026-11-09T15:57:32+00:00"
+    }
+  ],
+  "last_checked": "2026-11-09T15:57:32+00:00"
 }

@@ -4,7 +4,7 @@
   "url": "https://www.aesan.gob.es/alertas/2026_45",
   "ref": "ES2026/327",
   "title": "Advertencia para personas con alergia a las almendras: presencia de almendras no declaradas en postre procedente de España (Ref. ES2026/327)",
-  "date": null,
+  "date": "2026-06-02",
   "category": null,
   "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON ALERGIA A LAS ALMENDRAS de la comercialización del producto Delicias de galleta María con presencia de almendras no incluidas en el etiquetado, con fecha de caducidad 30/06/2026.",
   "hazard": "alergenos",
@@ -35,6 +35,10 @@
     "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
   ],
   "first_seen": "2026-11-09T15:52:49+00:00",
-  "history": [],
-  "last_checked": "2026-11-09T15:52:49+00:00"
+  "history": [
+    {
+      "changed": "2026-11-09T15:57:36+00:00"
+    }
+  ],
+  "last_checked": "2026-11-09T15:57:36+00:00"
 }

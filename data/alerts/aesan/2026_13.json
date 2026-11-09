@@ -4,7 +4,7 @@
   "url": "https://www.aesan.gob.es/alertas/2026_13",
   "ref": "ES2026/089",
   "title": "Alerta por posible presencia de cuerpos extraños (astillas de madera) en queso rallado procedente de España (Ref. ES2026/089)",
-  "date": null,
+  "date": "2026-02-23",
   "category": null,
   "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por la Comunidad Foral de Navarra a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI) de la posible presencia de cuerpos extraños (astillas de madera) en queso rallado de las marcas Alteza, Albéniz y Froiz, del lote 2426026 y con fecha de caducidad 05.06.2026.",
   "hazard": "cuerpos-extranos",
@@ -67,6 +67,10 @@
     "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
   ],
   "first_seen": "2026-11-09T15:52:02+00:00",
-  "history": [],
-  "last_checked": "2026-11-09T15:52:02+00:00"
+  "history": [
+    {
+      "changed": "2026-11-09T15:56:50+00:00"
+    }
+  ],
+  "last_checked": "2026-11-09T15:56:50+00:00"
 }

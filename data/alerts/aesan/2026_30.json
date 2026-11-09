@@ -4,7 +4,7 @@
   "url": "https://www.aesan.gob.es/alertas/2026_30",
   "ref": "ES2026/206",
   "title": "Advertencia para personas con alergia a los componentes de la leche, la soja, el sésamo o las nueces: Presencia de trazas de leche, soja, sésamo y nueces en cereales inflados procedentes de Alemania (Ref ES2026/206)",
-  "date": null,
+  "date": "2026-04-14",
   "category": null,
   "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON ALERGIA A LOS COMPONENTES DE LA LECHE, A LA SOJA, AL SÉSAMO O A LAS NUECES, de la comercialización del producto cereales inflados de la marca Freche Freunde con presencia de trazas de leche, soja, sésamo y nueces no incluidos en el etiquetado.",
   "hazard": "alergenos",
@@ -45,6 +45,10 @@
     "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
   ],
   "first_seen": "2026-11-09T15:52:27+00:00",
-  "history": [],
-  "last_checked": "2026-11-09T15:52:27+00:00"
+  "history": [
+    {
+      "changed": "2026-11-09T15:57:14+00:00"
+    }
+  ],
+  "last_checked": "2026-11-09T15:57:14+00:00"
 }

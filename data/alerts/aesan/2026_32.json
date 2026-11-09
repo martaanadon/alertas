@@ -4,7 +4,7 @@
   "url": "https://www.aesan.gob.es/alertas/2026_32",
   "ref": "ES2026/212",
   "title": "Advertencia para personas con alergia al sésamo: Presencia de sésamo no declarado en aperitivo de tofu seco procedente de China (Ref. ES2026/212)",
-  "date": null,
+  "date": "2026-04-16",
   "category": null,
   "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON ALERGIA AL SÉSAMO de la comercialización del producto aperitivo de tofu seco con presencia de sésamo no incluido en el etiquetado.",
   "hazard": "alergenos",
@@ -43,6 +43,10 @@
     "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
   ],
   "first_seen": "2026-11-09T15:52:30+00:00",
-  "history": [],
-  "last_checked": "2026-11-09T15:52:30+00:00"
+  "history": [
+    {
+      "changed": "2026-11-09T15:57:17+00:00"
+    }
+  ],
+  "last_checked": "2026-11-09T15:57:17+00:00"
 }

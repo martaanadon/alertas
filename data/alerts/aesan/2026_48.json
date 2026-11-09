@@ -4,7 +4,7 @@
   "url": "https://www.aesan.gob.es/alertas/2026_48",
   "ref": "ES2026/350",
   "title": "Alerta por presencia de Listeria monocytogenes en bloc de foie gras de pato procedente de Bulgaria (Ref. ES2026/350)",
-  "date": null,
+  "date": "2026-06-15",
   "category": null,
   "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por las autoridades sanitarias de la comunidad autónoma de País Vasco, a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de la presencia de Listeria monocytogenes en bloc de foie gras de pato de la marca Capdevila, lote L26029311821.",
   "hazard": "listeria",
@@ -20,7 +20,9 @@
       "temperature": "refrigerado"
     }
   ],
-  "brands": [],
+  "brands": [
+    "Capdevila"
+  ],
   "distribution": "Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
   "regions": [],
   "nationwide": false,
@@ -36,6 +38,10 @@
     "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
   ],
   "first_seen": "2026-11-09T15:52:53+00:00",
-  "history": [],
-  "last_checked": "2026-11-09T15:52:53+00:00"
+  "history": [
+    {
+      "changed": "2026-11-09T15:57:41+00:00"
+    }
+  ],
+  "last_checked": "2026-11-09T15:57:41+00:00"
 }

@@ -4,7 +4,7 @@
   "url": "https://www.aesan.gob.es/alertas/2026_24",
   "ref": "ES2026/161",
   "title": "Alerta por presencia de Escherichia coli productora de toxinas Shiga (STEC) en queso Camembert procedente de Francia (Ref. ES2026/161)",
-  "date": null,
+  "date": "2026-03-26",
   "category": null,
   "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por Alemania, a través de la Red de Alerta Alimentaria Europea (RASFF), de la presencia de Escherichia coli productora de toxinas Shiga (STEC) en queso Camembert de la marca La Réserve de Crémiers, lote 031241.",
   "hazard": "e-coli",
@@ -19,7 +19,9 @@
       "temperature": "Refrigerado"
     }
   ],
-  "brands": [],
+  "brands": [
+    "La Réserve"
+  ],
   "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Madrid y Cataluña, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas. Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
   "regions": [
     "cataluna",
@@ -38,6 +40,10 @@
     "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
   ],
   "first_seen": "2026-11-09T15:52:18+00:00",
-  "history": [],
-  "last_checked": "2026-11-09T15:52:18+00:00"
+  "history": [
+    {
+      "changed": "2026-11-09T15:57:06+00:00"
+    }
+  ],
+  "last_checked": "2026-11-09T15:57:06+00:00"
 }

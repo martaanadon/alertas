@@ -4,7 +4,7 @@
   "url": "https://www.aesan.gob.es/alertas/2026_11",
   "ref": "ES2026/085",
   "title": "Advertencia para personas con intolerancia a los sulfitos: Presencia de sulfitos no declarados en el etiquetado de salsas picantes procedentes de España (Ref.ES2026/085)",
-  "date": null,
+  "date": "2026-02-20",
   "category": null,
   "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON INTOLERANCIA A LOS SULFITOS de la comercialización de las salsas picantes: Cayena, Scorpion amarillo, Scorpion rojo, Chipotle, Ghost y Habanero de la marca Martínez con presencia de sulfitos no incluidos en el etiquetado.",
   "hazard": "alergenos",
@@ -68,6 +68,10 @@
     "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
   ],
   "first_seen": "2026-11-09T15:51:59+00:00",
-  "history": [],
-  "last_checked": "2026-11-09T15:51:59+00:00"
+  "history": [
+    {
+      "changed": "2026-11-09T15:56:47+00:00"
+    }
+  ],
+  "last_checked": "2026-11-09T15:56:47+00:00"
 }

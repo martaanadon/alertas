@@ -4,7 +4,7 @@
   "url": "https://www.aesan.gob.es/alertas/2026_10",
   "ref": "ES2026/085",
   "title": "Advertencia para personas con algún tipo de alergia o intolerancia: se desconocen los componentes de uno de los ingredientes (caldo de pollo) en salsa brava procedente de España (Ref. ES2026/085)",
-  "date": null,
+  "date": "2026-02-20",
   "category": null,
   "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición ha tenido conocimiento a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de una notificación de alerta trasladada por las autoridades sanitarias de islas Baleares, relativa a la posible presencia de alérgenos en uno de los ingredientes (caldo de pollo), no incluidos en el etiquetado, en salsa brava de la marca Martínez.",
   "hazard": "alergenos",
@@ -39,6 +39,10 @@
     "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
   ],
   "first_seen": "2026-11-09T15:51:57+00:00",
-  "history": [],
-  "last_checked": "2026-11-09T15:51:57+00:00"
+  "history": [
+    {
+      "changed": "2026-11-09T15:56:45+00:00"
+    }
+  ],
+  "last_checked": "2026-11-09T15:56:45+00:00"
 }

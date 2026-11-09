@@ -4,7 +4,7 @@
   "url": "https://www.aesan.gob.es/alertas/2026_12",
   "ref": "ES2026/087",
   "title": "Alerta por riesgo de asfixia en gominolas procedentes de Japón a través de Países Bajos (Ref ES2026/087)",
-  "date": null,
+  "date": "2026-02-22",
   "category": null,
   "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por Países Bajos, a través de la Red de Alerta Alimentaria Europea (RASFF), del riesgo de asfixia por consumo de gominolas “Gelatinas Hello Kitty Manzana y Konjak”.",
   "hazard": "otros",
@@ -51,6 +51,10 @@
     "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
   ],
   "first_seen": "2026-11-09T15:52:00+00:00",
-  "history": [],
-  "last_checked": "2026-11-09T15:52:00+00:00"
+  "history": [
+    {
+      "changed": "2026-11-09T15:56:48+00:00"
+    }
+  ],
+  "last_checked": "2026-11-09T15:56:48+00:00"
 }

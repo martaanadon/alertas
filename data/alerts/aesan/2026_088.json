@@ -13,7 +13,9 @@
     "leche"
   ],
   "products": [],
-  "brands": [],
+  "brands": [
+    "SANDRO DESII"
+  ],
   "distribution": "Según la información disponible, la distribución ha sido a las comunidades autónomas de Cataluña, Galicia, Castilla - La Mancha, Asturias, Extremadura, Castilla y León, Cantabria, Baleares, Madrid, Murcia, Andalucía, Navarra, Valencia, Aragón y País Vasco, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
   "regions": [
     "andalucia",
@@ -58,6 +60,10 @@
     "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
   ],
   "first_seen": "2026-11-09T15:53:49+00:00",
-  "history": [],
-  "last_checked": "2026-11-09T15:53:49+00:00"
+  "history": [
+    {
+      "changed": "2026-11-09T15:58:36+00:00"
+    }
+  ],
+  "last_checked": "2026-11-09T15:58:36+00:00"
 }

@@ -4,7 +4,7 @@
   "url": "https://www.aesan.gob.es/alertas/2026_08",
   "ref": "ES2026/074",
   "title": "Advertencia para personas con alergia al trigo: Presencia de trigo en snacks de maíz procedentes de Filipinas (Ref. ES2026/074)",
-  "date": null,
+  "date": "2026-02-13",
   "category": null,
   "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON ALERGIA AL TRIGO de la comercialización de snacks de maíz de la marca Boy Bawang con presencia de trigo no incluido en el etiquetado.",
   "hazard": "alergenos",
@@ -42,6 +42,10 @@
     "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
   ],
   "first_seen": "2026-11-09T15:51:53+00:00",
-  "history": [],
-  "last_checked": "2026-11-09T15:51:53+00:00"
+  "history": [
+    {
+      "changed": "2026-11-09T15:56:41+00:00"
+    }
+  ],
+  "last_checked": "2026-11-09T15:56:41+00:00"
 }
