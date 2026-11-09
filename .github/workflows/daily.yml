@@ -10,6 +10,10 @@ on:
         description: "Extra years to backfill, space-separated (e.g. 2025)"
         required: false
         default: ""
+      refresh_all:
+        description: "Re-download every alert (after parser changes)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -41,6 +45,7 @@ jobs:
         run: |
           YEARS="$(date +%Y) ${{ github.event.inputs.years }}"
           ARGS=""; for y in $YEARS; do ARGS="$ARGS --year $y"; done
+          if [ "${{ github.event.inputs.refresh_all }}" = "true" ]; then ARGS="$ARGS --refresh-all"; fi
           python -m alertas.aesan $ARGS | tee collect.log
 
       - name: Safety Gate discovery (raw only, not published)

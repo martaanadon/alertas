@@ -37,6 +37,11 @@ def load_alerts(data_dir: Path) -> list:
         if not a.get("title") or not a.get("date"):
             continue  # unparsed pages are never published
         alerts.append(a)
+    # the same alert can be reachable at two URLs (e.g. 2026_08 and 2026_088): keep one per ref
+    by_ref = {}
+    for a in sorted(alerts, key=lambda a: len(a["id"])):
+        by_ref.setdefault(a.get("ref") or a["id"], a)
+    alerts = list(by_ref.values())
     alerts.sort(key=lambda a: (a["date"], a["id"]), reverse=True)
     return alerts
 

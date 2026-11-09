@@ -55,13 +55,28 @@ def _blocks(soup: BeautifulSoup) -> list:
     return out
 
 
+def _parse_date_soup(soup):
+    for attrs in ({"property": "article:published_time"}, {"name": "dcterms.date"}, {"name": "date"},
+                  {"property": "og:updated_time"}):
+        m = soup.find("meta", attrs=attrs)
+        if m and re.match(r"\d{4}-\d{2}-\d{2}", m.get("content", "")):
+            return m["content"][:10]
+    t = soup.find("time")
+    if t and re.match(r"\d{4}-\d{2}-\d{2}", t.get("datetime", "")):
+        return t["datetime"][:10]
+    return None
+
+
 def _parse_date(text: str):
-    m = re.search(r"Fecha:\s*(\d{1,2})/(\d{1,2})/(\d{4})", text)
+    m = re.search(r"Fecha(?: y hora)?:\s*(\d{1,2})/(\d{1,2})/(\d{4})", text)
     if m:
         d, mo, y = map(int, m.groups())
         return date(y, mo, d).isoformat()
     m = re.search(r"Fecha:\s*(\d{1,2})\s+([A-Za-zé]+)\s+(\d{4})", text)
     if m and m.group(2).lower() in MONTHS:
+        return date(int(m.group(3)), MONTHS[m.group(2).lower()], int(m.group(1))).isoformat()
+    m = re.search(r"\b(\d{1,2})\s+(?:de\s+)?(" + "|".join(MONTHS) + r")\s+(?:de\s+)?(\d{4})\b", text, re.I)
+    if m:
         return date(int(m.group(3)), MONTHS[m.group(2).lower()], int(m.group(1))).isoformat()
     return None
 
@@ -97,6 +112,8 @@ def _parse_products(blocks: list) -> list:
 
 def parse_alert(html: str, url: str) -> dict:
     soup = BeautifulSoup(html, "html.parser")
+    meta_date = _parse_date_soup(soup)
+    page_text = re.sub(r"\s+", " ", (soup.find("main") or soup).get_text(" ", strip=True))
     page_title = soup.title.get_text(" ", strip=True) if soup.title else ""
     h1 = soup.find("h1")
     images = []
@@ -129,6 +146,11 @@ def parse_alert(html: str, url: str) -> dict:
     regions, nationwide = tx.detect_regions(dist)
     products = _parse_products(blocks)
     brands = sorted({p["brand"].strip() for p in products if p.get("brand")})
+    if not brands:
+        m = re.search(r"\bde la marca ([A-ZÁÉÍÓÚÑ0-9][\wÁÉÍÓÚÑáéíóúñ&'.-]*(?: [A-ZÁÉÍÓÚÑ0-9][\wÁÉÍÓÚÑáéíóúñ&'.-]*){0,3})",
+                      summary + " " + full)
+        if m:
+            brands = [m.group(1).strip(" .,")]
 
     return {
         "source": "aesan",
@@ -136,7 +158,7 @@ def parse_alert(html: str, url: str) -> dict:
         "url": url,
         "ref": ref.group(1) if ref else None,
         "title": title,
-        "date": _parse_date(full),
+        "date": meta_date or _parse_date(full) or _parse_date(page_text),
         "category": cat.group(1).strip() if cat else None,
         "summary": summary,
         "hazard": hazard_slug,
@@ -190,7 +212,7 @@ def discover_keys(session, raw_dir: Path) -> set:
 
 
 def collect(year: int, out_dir: Path, raw_dir: Path, refresh_last: int = 10,
-            max_misses: int = 15, delay: float = 1.0) -> dict:
+            max_misses: int = 15, delay: float = 1.0, refresh_all: bool = False) -> dict:
     """Fetch every alert of `year`: keys found on the listing pages plus a sequential walk
     (YYYY_1, YYYY_2 ... trying zero-padded forms too). The newest `refresh_last` known
     alerts are always re-fetched to catch amendments."""
@@ -203,7 +225,8 @@ def collect(year: int, out_dir: Path, raw_dir: Path, refresh_last: int = 10,
     stats["listed"] = len(listed)
     existing = {p.stem for p in out_dir.glob(f"{year}_*.json")}
     nums = sorted(int(k.split("_")[1]) for k in existing | listed)
-    refresh = {k for k in existing if int(k.split("_")[1]) in nums[-refresh_last:]}
+    refresh = set(existing) if refresh_all else \
+        {k for k in existing if int(k.split("_")[1]) in nums[-refresh_last:]}
 
     candidates = []
     for k in sorted(listed, key=lambda k: [int(x) if x.isdigit() else 0 for x in k.split("_")]):
@@ -257,6 +280,7 @@ def collect(year: int, out_dir: Path, raw_dir: Path, refresh_last: int = 10,
             stats["new"] += 1
         alert["last_checked"] = now
         path.write_text(json.dumps(alert, ensure_ascii=False, indent=2))
+        (raw_dir / f"{key}.html").write_text(html)
         (raw_dir / f"{key}.txt").write_text("\n".join(_blocks(BeautifulSoup(html, "html.parser"))))
     (raw_dir / f"_probe_{year}.json").write_text(json.dumps(
         {k: v for k, v in stats.items() if k != "errors"} | {"errors": stats["errors"][:50]}, indent=1))
@@ -268,10 +292,26 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--year", type=int, action="append")
     ap.add_argument("--data", default="data")
+    ap.add_argument("--refresh-all", action="store_true")
+    ap.add_argument("--reparse", action="store_true", help="rebuild JSON from saved raw HTML, no network")
     args = ap.parse_args()
+    if args.reparse:
+        out = Path(args.data) / "alerts" / "aesan"
+        for h in sorted((Path(args.data) / "raw" / "aesan").glob("*.html")):
+            if h.name.startswith("_"):
+                continue
+            j = out / f"{h.stem}.json"
+            old = json.loads(j.read_text()) if j.exists() else {}
+            new = parse_alert(h.read_text(), BASE + h.stem)
+            for k in ("first_seen", "last_checked", "history"):
+                new[k] = old.get(k, [] if k == "history" else None)
+            j.write_text(json.dumps(new, ensure_ascii=False, indent=2))
+        print("reparsed")
+        raise SystemExit
     years = args.year or [date.today().year]
     for y in years:
-        s = collect(y, Path(args.data) / "alerts" / "aesan", Path(args.data) / "raw" / "aesan")
+        s = collect(y, Path(args.data) / "alerts" / "aesan", Path(args.data) / "raw" / "aesan",
+                    refresh_all=args.refresh_all)
         print(f"AESAN {y}: {s['listed']} listed, {s['new']} new, {s['updated']} updated, {s['unchanged']} unchanged, "
               f"{len(s['errors'])} errors")
         for e in s["errors"][:10]:
