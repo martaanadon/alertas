@@ -64,3 +64,8 @@ def test_date_from_page_info_block():
     a = parse_alert(html, "https://www.aesan.gob.es/alertas/2026_79")
     assert a["date"] == "2026-11-04"
     assert a["brands"] == ["Ejemplo Lácteos"]
+
+
+def test_supplement_is_not_an_allergen_alert():
+    assert tx.classify_hazard("Alerta por presencia de sildenafilo no declarado en complemento alimenticio")[0] == "complementos"
+    assert tx.classify_hazard("Advertencia para personas con alergia al huevo: huevo no declarado")[0] == "alergenos"

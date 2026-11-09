@@ -7,8 +7,8 @@
   "date": "2026-03-18",
   "category": null,
   "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) amplía la información relativa a la alerta por presencia de sulfitos no declarados en el etiquetado en azúcar de coco de la marca Auchan (Ref.ES2026/090).",
-  "hazard": "alergenos",
-  "hazard_label": "Alérgenos no declarados",
+  "hazard": "otros",
+  "hazard_label": "Otros riesgos",
   "allergens": [],
   "products": [
     {

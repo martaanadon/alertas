@@ -7,8 +7,8 @@
   "date": "2026-08-26",
   "category": null,
   "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE de la presencia de GLUTEN no incluido en el etiquetado en varias salsas: salsa barbacoa (BBQ) y salsa chimichurri marca Vulpi y Salsa barbacoa (BBQ) marca Dumt’s.",
-  "hazard": "alergenos",
-  "hazard_label": "Alérgenos no declarados",
+  "hazard": "otros",
+  "hazard_label": "Otros riesgos",
   "allergens": [
     "gluten"
   ],
@@ -64,10 +64,10 @@
     "https://www.aesan.gob.es/dam/jcr:34432d9b-a474-4b98-8e4e-74ae81d9fd72/GUIA_ETIQUETADO_GLUTEN.jpg"
   ],
   "first_seen": "2026-11-09T15:51:05+00:00",
+  "last_checked": "2026-11-09T16:01:14+00:00",
   "history": [
     {
       "changed": "2026-11-09T16:01:14+00:00"
     }
-  ],
-  "last_checked": "2026-11-09T16:01:14+00:00"
+  ]
 }

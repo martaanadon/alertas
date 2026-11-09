@@ -147,18 +147,24 @@ def parse_alert(html: str, url: str) -> dict:
                     and not b.startswith("Categor")), "")
     summary = re.sub(r"^Resumen:\s*", "", summary)
     dist = " ".join(b for b in blocks if re.search(r"distribu|comunidades aut", b, re.I))
-    recs = [b for b in blocks if re.match(r"^(No consumir|Si se ha consumido|Se recomienda|Las embarazadas|"
+    recs_raw = [b for b in blocks if re.match(r"^(No consumir|Si se ha consumido|Se recomienda|Las embarazadas|"
                                           r"Extremar|Devolver|Abstenerse)", b)]
+    recs, seen = [], set()
+    for r in recs_raw:  # AESAN often repeats the same advice with tiny wording changes
+        k = re.sub(r"[^a-z]", "", tx._norm(r))[:60]
+        if k not in seen:
+            seen.add(k)
+            recs.append(r)
 
     hazard_slug, hazard_label = tx.classify_hazard(title, summary)
     regions, nationwide = tx.detect_regions(dist)
     products = _parse_products(blocks)
     brands = sorted({b.strip() for p in products if p.get("brand") for b in p["brand"].split(";")
-                     if len(b.strip()) > 2})
+                     if len(b.strip()) > 2 and b.strip().lower() not in ("del", "las", "los")})
     if not brands:
         m = re.search(r"\bde la marca ([A-ZÁÉÍÓÚÑ0-9][\wÁÉÍÓÚÑáéíóúñ&'-]*(?: [A-ZÁÉÍÓÚÑ0-9][\wÁÉÍÓÚÑáéíóúñ&'-]*){0,3})",
                       summary + "\n" + full)
-        if m:
+        if m and m.group(1).strip(" .,").lower() not in ("de", "del", "la", "el", "los", "las"):
             brands = [m.group(1).strip(" .,")]
 
     return {

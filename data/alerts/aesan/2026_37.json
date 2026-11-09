@@ -7,8 +7,8 @@
   "date": "2026-05-11",
   "category": null,
   "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON ALERGIA AL PESCADO de la comercialización del complemento alimenticio NDL Pro-Health Articulations, con presencia de pescado no incluido en el etiquetado.",
-  "hazard": "alergenos",
-  "hazard_label": "Alérgenos no declarados",
+  "hazard": "complementos",
+  "hazard_label": "Complementos con sustancias no autorizadas",
   "allergens": [
     "pescado"
   ],
