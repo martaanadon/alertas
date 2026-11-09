@@ -4,7 +4,7 @@
   "url": "https://www.aesan.gob.es/alertas/2026_62",
   "ref": "ES2026/485",
   "title": "Advertencia para personas con alergia o intolerancia a los componentes de la leche: etiquetado incorrecto de alérgeno (leche) en fideos de estilo oriental (Ref ES2026/485)",
-  "date": null,
+  "date": "2026-08-10",
   "category": null,
   "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON ALERGIA O INTOLERANCIA A LOS COMPONENTES DE LA LECHE de la comercialización de fideos asiáticos de la marca Kania con etiquetado incorrecto de alérgeno (leche).",
   "hazard": "alergenos",
@@ -38,6 +38,10 @@
     "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
   ],
   "first_seen": "2026-11-09T15:53:16+00:00",
-  "history": [],
-  "last_checked": "2026-11-09T15:58:03+00:00"
+  "history": [
+    {
+      "changed": "2026-11-09T16:03:20+00:00"
+    }
+  ],
+  "last_checked": "2026-11-09T16:03:20+00:00"
 }

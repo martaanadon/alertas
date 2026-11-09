@@ -4,7 +4,7 @@
   "url": "https://www.aesan.gob.es/alertas/2026_66",
   "ref": "ES2026/535",
   "title": "Alerta por presencia de sibutramina en complementos alimenticios (Ref. ES2026/535)",
-  "date": null,
+  "date": "2026-09-02",
   "category": null,
   "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) informa de la retirada de los productos Slim U, Slim U Pro, P57 Hoodia, Bikini Siluet Perfect, Slim 24, 14 Día, Fatzorb, AB Slim, Get Lean, Slimina, Burn and Slim, Body Slim, Black Panther, Aphrodite Thermoslim Coffe, Aphrodite Plus, Aphrodite LipoDetox, Aphrodite Green Plus, Aphrodite Forte Plus, Aphrodite Forte, Li Da Ultra, Pineapple Slimming Peptide y Pezo Mega comercializados como complementos alimenticios por presencia de sibutramina no declarada en el etiquetado, y que puede producir reacciones adversas de diversa gravedad.",
   "hazard": "alergenos",
@@ -26,6 +26,10 @@
     "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
   ],
   "first_seen": "2026-11-09T15:51:08+00:00",
-  "history": [],
-  "last_checked": "2026-11-09T15:55:57+00:00"
+  "history": [
+    {
+      "changed": "2026-11-09T16:01:17+00:00"
+    }
+  ],
+  "last_checked": "2026-11-09T16:01:17+00:00"
 }

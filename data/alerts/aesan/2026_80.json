@@ -4,7 +4,7 @@
   "url": "https://www.aesan.gob.es/alertas/2026_80",
   "ref": "ES2026/665",
   "title": "Alerta por presencia de Listeria monocytogenes en jamón cocido procedente de España (Ref. ES2026/665)",
-  "date": null,
+  "date": "2026-11-04",
   "category": null,
   "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por las autoridades competentes del País Vasco a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de la presencia de Listeria monocytogenes en jamón cocido de la marca Urkabe, con fecha de caducidad 26/11/2026.",
   "hazard": "listeria",
@@ -46,6 +46,10 @@
     "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
   ],
   "first_seen": "2026-11-09T15:51:27+00:00",
-  "history": [],
-  "last_checked": "2026-11-09T15:56:15+00:00"
+  "history": [
+    {
+      "changed": "2026-11-09T16:01:35+00:00"
+    }
+  ],
+  "last_checked": "2026-11-09T16:01:35+00:00"
 }
