@@ -1,0 +1,44 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-81",
+  "url": "https://www.aesan.gob.es/alertas/2026_81",
+  "ref": "ES2026/678",
+  "title": "Alerta por posible presencia de Listeria monocytogenes en productos lácteos procedentes de España. (Ref.ES2026/678)",
+  "date": "2026-11-10",
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por la Comunidad Autónoma de Madrid, a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de la posible presencia de Listeria monocytogenes en varios productos lácteos de la marca Priégola, de varios lotes. Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos.",
+  "hazard": "listeria",
+  "hazard_label": "Listeria",
+  "allergens": [],
+  "products": [
+    {
+      "brand": "Priégola",
+      "packaging": "envasado en brick de cartón",
+      "lot": "299, 300, 302, 303, 307, 308, 309, 310",
+      "temperature": "refrigeración"
+    }
+  ],
+  "brands": [
+    "Priégola"
+  ],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Madrid y Comunidad Valenciana , si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas. Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI) con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
+  "regions": [
+    "comunidad-valenciana",
+    "madrid"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [
+    "Se recomienda a las personas que tengan en su domicilio productos afectados por esta alerta, se abstengan de consumirlos."
+  ],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:d1cb1ef6-c1f9-4986-97f6-7969c6d48f95/Alerta_2026_11_10_2.2026-11-10-17-43-54.png",
+    "https://www.aesan.gob.es/dam/jcr:b392fa7a-b3c8-4697-8252-a465f297d0cf/Alerta_2026_11_10_1.2026-11-10-17-27-24.png",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-10T17:59:17+00:00",
+  "history": [],
+  "last_checked": "2026-11-10T17:59:17+00:00"
+}
