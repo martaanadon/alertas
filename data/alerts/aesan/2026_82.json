@@ -1,0 +1,44 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-82",
+  "url": "https://www.aesan.gob.es/alertas/2026_82",
+  "ref": "ES2026/681",
+  "title": "Advertencia para personas con intolerancia a los sulfitos: Presencia de sulfitos no declarados en el etiquetado de gamba blanca congelada procedente de Senegal (Ref. ES2026/681)",
+  "date": "2026-11-11",
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON INTOLERANCIA A LOS SULFITOS de la comercialización del producto gamba blanca congelada con presencia de sulfitos no incluidos en el etiquetado de la marca Oceanpescados S.A., lote OP30126G . Como medida de precaución, se recomienda a aquellas PERSONAS CON INTOLERANCIA A LOS SULFITOS que pudieran tener el producto anteriormente mencionado en sus hogares se abstengan de consumirlo. EL CONSUMO DE ESTE PRODUCTO NO COMPORTA NINGÚN RIESGO PARA EL RESTO DE LA POBLACIÓN",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [
+    "crustaceos"
+  ],
+  "products": [
+    {
+      "name": "Gamba blanca congelada",
+      "packaging": "Envasado en caja de cartón",
+      "lot": "OP30126G",
+      "expiry": "01/2028",
+      "weight": "1200 g",
+      "temperature": "Congelado"
+    }
+  ],
+  "brands": [
+    "Oceanpescados S"
+  ],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a la comunidad autónoma de Castilla y León , si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
+  "regions": [
+    "castilla-y-leon"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:956b4ae6-1384-4cdf-a093-3caa0aa60970/Alerta_2026_11_11_1.2026-11-11-15-02-14.png",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-11T18:07:49+00:00",
+  "history": [],
+  "last_checked": "2026-11-11T18:07:49+00:00"
+}
