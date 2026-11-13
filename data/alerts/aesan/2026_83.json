@@ -1,0 +1,32 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-83",
+  "url": "https://www.aesan.gob.es/alertas/2026_83",
+  "ref": "ES2026/681",
+  "title": "Retirada de la alerta por presencia de sulfitos no declarados en el etiquetado de gamba blanca congelada procedente de Senegal (Ref. ES2026/681)",
+  "date": "2026-11-13",
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) comunica la retirada de la alerta por presencia de sulfitos no declarados en el etiquetado de GAMBA BLANCA CONGELADA de la marca OCEANPESCADOS S.A., del lote OP30126G, y fecha de consumo preferente 01/2028. (Ref. ES2026/681). Tras la realización de nuevas investigaciones en el lote objeto de la alerta, las autoridades sanitarias de Castilla y León han determinado que no hay razones que justifiquen el mantenimiento de la alerta.",
+  "hazard": "cuerpos-extranos",
+  "hazard_label": "Cuerpos extraños",
+  "allergens": [
+    "crustaceos"
+  ],
+  "products": [],
+  "brands": [
+    "OCEANPESCADOS S"
+  ],
+  "distribution": "",
+  "regions": [],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-13T18:03:51+00:00",
+  "history": [],
+  "last_checked": "2026-11-13T18:03:51+00:00"
+}
