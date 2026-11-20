@@ -1,0 +1,43 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-86",
+  "url": "https://www.aesan.gob.es/alertas/2026_86",
+  "ref": "ES2026/711",
+  "title": "Ampliación de información sobre la alerta por posible presencia de Salmonella Enteritidis en huevos procedentes de España. (Ref. ES2026/711)",
+  "date": "2026-11-20",
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) amplía la información relativa a la alerta por posible presencia de Salmonella Enteritidis en huevos procedentes de España. (Ref. ES2026/711)",
+  "hazard": "salmonella",
+  "hazard_label": "Salmonella",
+  "allergens": [],
+  "products": [
+    {
+      "name": "Huevos frescos de gallinas sueltas en el gallinero",
+      "brand": "Eroski",
+      "packaging": "Huevos de tamaños M, L y XL, en formatos de 1 docena, 0,5 docena o 1,5 docenas",
+      "lot": "Lotes 0222F XXXX* *(XXXX: numeración correspondiente a fecha de consumo preferente desde 22/11 a 01/12)",
+      "temperature": "Ambiente"
+    }
+  ],
+  "brands": [
+    "Eroski"
+  ],
+  "distribution": "Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
+  "regions": [],
+  "nationwide": false,
+  "supermarkets": [
+    "eroski"
+  ],
+  "recommendations": [
+    "Se recomienda a las personas que tengan en su domicilio productos incluidos en esta alerta se abstengan de consumirlos .",
+    "Se recomienda a las personas que tengan en su domicilio productos afectados por dicha alerta, se abstengan de consumirlos ."
+  ],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-20T18:12:54+00:00",
+  "history": [],
+  "last_checked": "2026-11-20T18:12:54+00:00"
+}

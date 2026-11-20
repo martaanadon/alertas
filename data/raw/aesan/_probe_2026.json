@@ -1,24 +1,21 @@
 {
- "new": 0,
+ "new": 3,
  "updated": 0,
- "unchanged": 9,
+ "unchanged": 6,
  "probe": {
-  "2026_75": "2026_75",
-  "2026_76": "2026_76",
-  "2026_77": "2026_77",
   "2026_78": "2026_78",
   "2026_79": "2026_79",
   "2026_80": "2026_80",
   "2026_81": "2026_81",
   "2026_83": "2026_83",
+  "2026_84": "2026_84",
+  "2026_86": "2026_86",
+  "2026_87": "2026_87",
   "2026_58": 404,
   "2026_60": 404,
   "2026_64": 404,
   "2026_82": 404,
-  "2026_84": 404,
   "2026_85": 404,
-  "2026_86": 404,
-  "2026_87": 404,
   "2026_88": "2026_088",
   "2026_89": 404,
   "2026_90": 404,
@@ -36,10 +33,5 @@
   "2026_102": 404
  },
  "listed": 18,
- "errors": [
-  "2026_092: HTTPSConnectionPool(host='www.aesan.gob.es', port=443): Max retries exceeded with url: /alertas/2026_092 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)')))",
-  "2026_93: HTTPSConnectionPool(host='www.aesan.gob.es', port=443): Max retries exceeded with url: /alertas/2026_93 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)')))",
-  "2026_093: HTTPSConnectionPool(host='www.aesan.gob.es', port=443): Max retries exceeded with url: /alertas/2026_093 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)')))",
-  "2026_94: HTTPSConnectionPool(host='www.aesan.gob.es', port=443): Max retries exceeded with url: /alertas/2026_94 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)')))"
- ]
+ "errors": []
 }

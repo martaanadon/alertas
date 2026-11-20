@@ -1,0 +1,90 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-84",
+  "url": "https://www.aesan.gob.es/alertas/2026_84",
+  "ref": "ES2026/710",
+  "title": "Advertencia para personas con alergia a la soja y/o el cachuete e intolerancia a los sulfitos: Presencia de soja, cacahuete y/o sulfitos en helados procedentes de España (Ref.ES2026/710)",
+  "date": "2026-11-20",
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON ALERGIA A LA SOJA Y/O EL CACAHUETE E INTOLERANCIA A LOS SULFITOS de la comercialización de helados de la marca LA QUINDIANITA con presencia de soja, cacahuetes y/o sulfitos no incluidos en el etiquetado.",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [
+    "cacahuete",
+    "soja"
+  ],
+  "products": [
+    {
+      "name": "Helado de chocolate",
+      "brand": "La Quindianita",
+      "packaging": "Envase 110 g",
+      "lot": "todos en los que no figure la soja en la lista de ingredientes",
+      "weight": "110 g",
+      "temperature": "congelado"
+    },
+    {
+      "name": "Helado yogur maracuyá",
+      "brand": "La Quindianita",
+      "packaging": "Envase 110 g",
+      "lot": "todos en los que no figure la soja en la lista de ingredientes",
+      "weight": "110 g",
+      "temperature": "congelado"
+    },
+    {
+      "name": "Helado yogur mora",
+      "brand": "La Quindianita",
+      "packaging": "Envase 110 g",
+      "lot": "todos en los que no figure la soja en la lista de ingredientes",
+      "weight": "110 g",
+      "temperature": "congelado"
+    },
+    {
+      "name": "Helado de maní",
+      "brand": "La Quindianita",
+      "packaging": "Envase 110 g",
+      "lot": "todos en los que no figure el cacahuete en la lista de ingredientes",
+      "weight": "110 g",
+      "temperature": "congelado"
+    },
+    {
+      "name": "Helado ron con pasas",
+      "brand": "La Quindianita",
+      "packaging": "Envase 110 g",
+      "lot": "todos en los que no figuren los sulfitos en la lista de ingredientes",
+      "weight": "110 g",
+      "temperature": "congelado"
+    },
+    {
+      "name": "Helado dulce de leche",
+      "brand": "La Quindianita",
+      "packaging": "Envase 110 g",
+      "lot": "todos en los que no figuren los sulfitos en la lista de ingredientes",
+      "weight": "110 g",
+      "temperature": "congelado"
+    }
+  ],
+  "brands": [
+    "La Quindianita"
+  ],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Andalucía, Aragón, Cataluña y Madrid , si bienno es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
+  "regions": [
+    "andalucia",
+    "aragon",
+    "cataluna",
+    "madrid"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:d79facda-59fa-4ff6-a147-d4b454c8901b/Alerta-2026-11-20_1.2026-11-20-15-43-55.png",
+    "https://www.aesan.gob.es/dam/jcr:0404ced0-364a-4ce3-a0ca-9133e6063bb9/Alerta-2026-11-20_2.2026-11-20-15-45-15.png",
+    "https://www.aesan.gob.es/dam/jcr:74a454cc-5e05-4d1e-9ab5-e5d13abd31ba/Alerta-2026-11-20_3.2026-11-20-15-45-55.png",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-20T18:12:52+00:00",
+  "history": [],
+  "last_checked": "2026-11-20T18:12:52+00:00"
+}
