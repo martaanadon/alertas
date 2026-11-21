@@ -22,8 +22,9 @@
   "brands": [
     "Eroski"
   ],
-  "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas deAndalucía, Castilla-La Mancha, Castilla y León, La Rioja, Navarra, Madrid, Murcia y País Vasco , si bienno es descartable que puedan existir redistribuciones a otras comunidades autónomas. Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
+  "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Andalucía, Castilla-La Mancha, Castilla y León, La Rioja, Navarra, Madrid, Murcia y País Vasco , si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas. Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
   "regions": [
+    "andalucia",
     "castilla-la-mancha",
     "castilla-y-leon",
     "madrid",
@@ -47,6 +48,10 @@
     "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
   ],
   "first_seen": "2026-11-20T18:12:55+00:00",
-  "history": [],
-  "last_checked": "2026-11-21T07:36:35+00:00"
+  "history": [
+    {
+      "changed": "2026-11-21T17:57:16+00:00"
+    }
+  ],
+  "last_checked": "2026-11-21T17:57:16+00:00"
 }

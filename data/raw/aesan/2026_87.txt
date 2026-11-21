@@ -2,7 +2,7 @@ Alerta por posible presencia de Salmonella Enteritidis en huevos procedentes de 
 Alertas alimentarias de interés para toda la población
 La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por las autoridades sanitarias del País Vasco, a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de la posible presencia de Salmonella Enteritidis en huevos de la marca Eroski.
 Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos.
-La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha tenido conocimiento a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de una notificación de alerta trasladada por las autoridades sanitarias del País Vasco, relativa a la presencia de Salmonella E nteritidis en huevos de la marca Eroski.
+La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha tenido conocimiento a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de una notificación de alerta trasladada por las autoridades sanitarias del País Vasco, relativa a la posible presencia de Salmonella E nteritidis en huevos de la marca Eroski.
 Los datos del producto implicado son:
 Nombre del producto: Huevos frescos de gallinas sueltas en el gallinero
 Nombre de marca: Eroski
@@ -16,7 +16,7 @@ Huevo suelo M/L EAN: 8480010190076
 Huevo fresco suelo L/XL EAN: 8480010196733
 Temperatura: Ambiente
 Se adjunta imagen orientativa disponible:
-Según la información disponible, la distribución inicial ha sido a las comunidades autónomas deAndalucía, Castilla-La Mancha, Castilla y León, La Rioja, Navarra, Madrid, Murcia y País Vasco , si bienno es descartable que puedan existir redistribuciones a otras comunidades autónomas.
+Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Andalucía, Castilla-La Mancha, Castilla y León, La Rioja, Navarra, Madrid, Murcia y País Vasco , si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas.
 Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.
 Se recomienda a las personas que tengan en su domicilio productos afectados por esta alerta, se abstengan de consumirlos.
 En el caso de haber consumido alguno de los productos de los lotes afectados y presentar alguna sintomatología compatible con la salmonelosis (principalmente diarrea y / o vómitos acompañados de fiebre y dolor de cabeza) se recomienda acudir a un centro de salud.
