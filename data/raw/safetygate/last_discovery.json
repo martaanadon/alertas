@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-22T17:57:47+00:00",
+  "fetched_at": "2026-11-23T08:00:08+00:00",
   "url": "https://ec.europa.eu/safety-gate-alerts/api/download/weeklyReport/list/xml/en",
   "status": 200,
   "content_type": "application/xml;charset=UTF-8",
@@ -9,7 +9,7 @@
       "ref": "Report-2026-46",
       "lang": "es",
       "status": 200,
-      "bytes": 257829
+      "bytes": 229637
     },
     {
       "ref": "Report-2026-46",
