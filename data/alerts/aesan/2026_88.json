@@ -1,0 +1,160 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-88",
+  "url": "https://www.aesan.gob.es/alertas/2026_88",
+  "ref": "ES2026/712",
+  "title": "Alerta por posible presencia de fragmentos de vidrio en frutos secos procedentes de España. (Ref. ES2026/712)",
+  "date": "2026-11-25",
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por la Comunidad Autónoma de Cataluña, a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de la posible presencia de fragmentos de vidrio en varios productos elaborados con frutos secos y de varias marcas.",
+  "hazard": "cuerpos-extranos",
+  "hazard_label": "Cuerpos extraños",
+  "allergens": [],
+  "products": [
+    {
+      "name": "MIX SPRINT & GO",
+      "packaging": "Bolsa",
+      "weight": "40 g",
+      "temperature": "Ambiente"
+    },
+    {
+      "name": "Mix para ensalada con bayas de goji",
+      "packaging": "Tarrina",
+      "lot": "112747",
+      "expiry": "22/01/2027",
+      "weight": "250 g",
+      "temperature": "Ambiente"
+    },
+    {
+      "name": "Pipa de girasol peladas fritas",
+      "packaging": "Bolsa",
+      "weight": "125 g",
+      "temperature": "Ambiente"
+    },
+    {
+      "name": "Cóctel fiesta",
+      "packaging": "Tarrina",
+      "lot": "1128079",
+      "expiry": "16/03/2027",
+      "weight": "400 g",
+      "temperature": "Ambiente"
+    },
+    {
+      "name": "Pipas de girasol peladas",
+      "packaging": "Tarrina",
+      "lot": "1128238",
+      "expiry": "28/03/2027",
+      "weight": "250 g",
+      "temperature": "Ambiente"
+    },
+    {
+      "name": "Pipa de girasol frita",
+      "packaging": "Bolsa",
+      "weight": "200 g",
+      "temperature": "Ambiente"
+    },
+    {
+      "name": "NATURA MIX ANTIOX",
+      "packaging": "Bolsa",
+      "weight": "35 g",
+      "temperature": "Ambiente"
+    },
+    {
+      "name": "Select frutos secos (Mix Ensaladas)",
+      "packaging": "Bolsa",
+      "lot": "1127445",
+      "expiry": "23/07/2027",
+      "weight": "1 kg",
+      "temperature": "Ambiente"
+    },
+    {
+      "name": "Frutos secos (Pipa pelada cruda)",
+      "packaging": "Bolsa",
+      "lot": "1127465",
+      "expiry": "16/01/2027",
+      "weight": "200 g",
+      "temperature": "Ambiente"
+    },
+    {
+      "name": "CÓCTEL BOLERO",
+      "packaging": "Bolsa",
+      "lot": "1127790",
+      "expiry": "28/01/2027",
+      "weight": "225 g",
+      "temperature": "Ambiente"
+    },
+    {
+      "name": "Pipas peladas fritas",
+      "packaging": "Bolsa",
+      "lot": "1127868",
+      "expiry": "09/02/2027",
+      "weight": "200 g",
+      "temperature": "Ambiente"
+    },
+    {
+      "name": "Mix picoteo",
+      "packaging": "Bolsa",
+      "lot": "1128041",
+      "expiry": "09/02/2027",
+      "weight": "250 g",
+      "temperature": "Ambiente"
+    },
+    {
+      "name": "Pipas de girasol natural peladas",
+      "packaging": "Bolsa; Bolsa",
+      "weight": "200 g; 140 g",
+      "temperature": "Ambiente; Ambiente"
+    },
+    {
+      "name": "MIXTUS PARTY",
+      "packaging": "Bolsa",
+      "lot": "1127780",
+      "expiry": "21/02/2027",
+      "weight": "200 g",
+      "temperature": "Ambiente"
+    }
+  ],
+  "brands": [],
+  "distribution": "Según la información disponible, la distribución inicial se ha producido en la mayor parte del territorio nacional. Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
+  "regions": [],
+  "nationwide": false,
+  "supermarkets": [
+    "lidl",
+    "carrefour",
+    "el-corte-ingles"
+  ],
+  "recommendations": [
+    "Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos.",
+    "Se recomienda a las personas que tengan en su domicilio productos afectados por esta alerta, se abstengan de consumirlos."
+  ],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:a40a179a-ebd2-400b-a873-fc040d232e15/Mix_frutos_secos.2026-11-25-19-36-58.png",
+    "https://www.aesan.gob.es/dam/jcr:dc3e6b99-117c-4838-a835-bfddfd79b7dd/Mix2.2026-11-25-19-47-36.png",
+    "https://www.aesan.gob.es/dam/jcr:3168be8e-954d-4014-a9cf-11bb1debde79/Mix%203.2026-11-25-19-47-35.png",
+    "https://www.aesan.gob.es/dam/jcr:a30fb741-1aae-4c48-ad82-13fba3caec72/Mix%204.2026-11-25-19-47-36.png",
+    "https://www.aesan.gob.es/dam/jcr:be95a010-a388-46f3-8e7c-3abbbdd9144a/Mix%205.2026-11-25-19-47-36.png",
+    "https://www.aesan.gob.es/dam/jcr:6fa898d9-49c9-41f1-8b02-e92577998dc5/Mix%206.2026-11-25-19-47-36.png",
+    "https://www.aesan.gob.es/dam/jcr:23bc1df4-8837-4dc1-9532-c93e035aa632/Mix%207.2026-11-25-19-47-36.png",
+    "https://www.aesan.gob.es/dam/jcr:873e5ffb-9815-47bb-bd1e-45fc62f171b3/Mix%208A.2026-11-25-19-47-36.png",
+    "https://www.aesan.gob.es/dam/jcr:abd41670-462e-4c79-91c7-60cec284e859/Mix%208B.2026-11-25-19-47-36.png",
+    "https://www.aesan.gob.es/dam/jcr:b91a1cb5-af2b-4a2d-abc7-17a74c85afe8/Mix%209A.2026-11-25-19-47-36.png",
+    "https://www.aesan.gob.es/dam/jcr:7ebed969-e354-44b3-a678-db38c7ef5f2e/Mix%209B.2026-11-25-19-47-36.png",
+    "https://www.aesan.gob.es/dam/jcr:fbeb1847-15b0-4d11-a040-c7278bb7ac15/Mix%2010A.2026-11-25-19-47-36.png",
+    "https://www.aesan.gob.es/dam/jcr:c7f16c69-21ae-450a-8982-0d2bcd928c42/Mix%2010B.2026-11-25-19-47-36.png",
+    "https://www.aesan.gob.es/dam/jcr:aa785489-9a25-4e1e-9682-0e8cbbc2bc10/Mix%2011A.2026-11-25-19-47-36.png",
+    "https://www.aesan.gob.es/dam/jcr:071b0d16-e3ed-4d45-8a0e-b5f142618075/Mix%2011B.2026-11-25-19-47-36.png",
+    "https://www.aesan.gob.es/dam/jcr:2e06e459-15fb-4444-b3ec-e10db8554566/Mix%2012A.2026-11-25-19-47-36.png",
+    "https://www.aesan.gob.es/dam/jcr:27b0c1c7-69e7-48a9-9039-96c63ac51019/Mix%2012B.2026-11-25-19-47-36.png",
+    "https://www.aesan.gob.es/dam/jcr:195bbb87-fa9d-46dd-99e7-9f6d21a43a9a/Mix%2013.2026-11-25-19-47-36.png",
+    "https://www.aesan.gob.es/dam/jcr:98f49094-aed4-47c4-bb24-999585d94031/Mix%2016.2026-11-25-20-10-43.png",
+    "https://www.aesan.gob.es/dam/jcr:17c4fdbe-3f3a-40fe-8b19-af2bb9e61cc9/Mix%2016B.2026-11-25-20-10-43.png",
+    "https://www.aesan.gob.es/dam/jcr:9c3855b7-afdb-47cd-a2c2-8008a85cc268/Mix%2015A.2026-11-25-19-47-36.png",
+    "https://www.aesan.gob.es/dam/jcr:2d0b2cd8-b3f7-4706-b59d-da761c797d8f/Mix%2015B.2026-11-25-19-47-36.png",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-26T07:48:42+00:00",
+  "history": [],
+  "last_checked": "2026-11-26T07:48:42+00:00"
+}
