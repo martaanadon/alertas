@@ -1,0 +1,48 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-87-ampliacion",
+  "url": "https://www.aesan.gob.es/alertas/2026_87_ampliacion",
+  "ref": "ES2026/711",
+  "title": "Ampliación de información sobre la alerta por posible presencia de Salmonella Enteritidis en huevos procedentes de España. (Ref. ES2026/711)",
+  "date": "2026-11-27",
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) amplía la información relativa a la alerta por posible presencia de Salmonella Enteritidis en huevos procedentes de España (Ref. ES2026/711). Se amplía la retirada a la marca Larrabe, a los huevos frescos de jaula y a las fechas de consumo preferente de los huevos frescos de suelo de la marca Eroski. Se recomienda a las personas que tengan en su domicilio productos incluidos en esta alerta se abstengan de consumirlos.",
+  "hazard": "salmonella",
+  "hazard_label": "Salmonella",
+  "allergens": [],
+  "products": [
+    {
+      "name": "Huevos frescos de gallinas en jaula",
+      "packaging": "Huevos de tamaños M, L y XL, en formatos de 1 docena, 1,5 docenas o a granel",
+      "temperature": "ambiente"
+    },
+    {
+      "name": "Huevos frescos de gallinas sueltas en el gallinero",
+      "packaging": "Huevos de tamaños M, L y XL, en formatos de 1 docena, 0,5 docena, 1,5 docenas, o a granel",
+      "temperature": "ambiente"
+    }
+  ],
+  "brands": [
+    "Eroski"
+  ],
+  "distribution": "Esta información ha sido trasladada a las autoridades competentes de las comunidades autónomas a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), con el objeto de que se verifique la retirada de los productos afectados de los canales de comercialización.",
+  "regions": [],
+  "nationwide": false,
+  "supermarkets": [
+    "eroski"
+  ],
+  "recommendations": [
+    "Se recomienda a las personas que tengan en su domicilio productos afectados por dicha alerta, se abstengan de consumirlos."
+  ],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:cb53d204-4efd-4c86-9da5-db7742c6e110/Alerta_2026_11_27_2.2026-11-27-16-24-53.jpg",
+    "https://www.aesan.gob.es/dam/jcr:c2009cb7-6d97-4fa8-ab6b-6bc31631162c/Alerta_2026_11_27_3.2026-11-27-16-25-20.png",
+    "https://www.aesan.gob.es/dam/jcr:9337594a-3966-49ac-a2eb-bf4d473f9009/Alerta_2026_11_27_4.2026-11-27-16-26-34.png",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-27T18:06:16+00:00",
+  "history": [],
+  "last_checked": "2026-11-27T18:06:16+00:00"
+}

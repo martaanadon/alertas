@@ -1,0 +1,45 @@
+{
+  "source": "aesan",
+  "id": "aesan-2026-89",
+  "url": "https://www.aesan.gob.es/alertas/2026_89",
+  "ref": "ES2026/716",
+  "title": "Advertencia para personas con alergia a la mostaza: presencia de mostaza en noodles procedentes de Australia (Ref.ES2026/716)",
+  "date": "2026-11-27",
+  "category": null,
+  "summary": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON ALERGIA A LA MOSTAZA de la comercialización del producto Organic Soba Noodles con presencia de mostaza no incluida en el etiquetado.",
+  "hazard": "alergenos",
+  "hazard_label": "Alérgenos no declarados",
+  "allergens": [
+    "mostaza"
+  ],
+  "products": [
+    {
+      "name": "Organic Soba Noodles ",
+      "brand": "Hakubaku",
+      "expiry": "01.06.2028",
+      "weight": "270 g",
+      "temperature": "ambiente"
+    }
+  ],
+  "brands": [
+    "Hakubaku"
+  ],
+  "distribution": "Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Cataluña, Madrid y País Vasco , si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
+  "regions": [
+    "cataluna",
+    "madrid",
+    "pais-vasco"
+  ],
+  "nationwide": false,
+  "supermarkets": [],
+  "recommendations": [],
+  "images": [
+    "https://www.aesan.gob.es/dam/jcr:e73226a7-a349-4ad9-b7de-6fa08e0b6c9d/Logo+Bandera+Gob.+Min+25+aniv.webp",
+    "https://www.aesan.gob.es/dam/jcr:bbf56977-46df-4514-b8f9-3e20618bd86e/Alerta_2026_11_27_1.2026-11-27-10-41-57.png",
+    "https://www.aesan.gob.es/dam/jcr:ebbd501e-8a34-4b9e-97c6-f4f0a0528f9d/logo_aesan.png",
+    "https://www.aesan.gob.es/dam/jcr:37a062ea-c8e4-4396-bcdf-fe78999d3c04/Logo+Bandera+Gob.+Min+25+aniv-62px.webp"
+  ],
+  "first_seen": "2026-11-27T18:06:19+00:00",
+  "history": [],
+  "last_checked": "2026-11-27T18:06:19+00:00"
+}

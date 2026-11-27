@@ -18,7 +18,7 @@ MARCA EL CORTE INGLÉS
 Nombre del producto: Mix para ensalada con bayas de goji
 Nombre de marca comercial: EL CORTE INGLÉS
 Aspecto del producto: Tarrina
-Número de lote: 112747
+Número de lote: 1127474
 Fecha de consumo preferente: 22/01/2027
 Peso de unidad: 250 g
 Temperatura: Ambiente
@@ -119,6 +119,7 @@ Aspecto del producto: Bolsa
 Peso de unidad: 200 g
 Temperatura: Ambiente
 Se adjunta imagen disponible.
+MIX & COOK
 Nombre de marca comercial: CARREFOUR
 Aspecto del producto: Bolsa
 1127427 - 17/07/2027
